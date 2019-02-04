@@ -1,0 +1,36 @@
+/* ==================================
+   #ICONS
+   ================================== */
+
+.c-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  bottom: .3ex;
+  position: relative;
+  vertical-align: middle;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+
+  .c-list & {
+    bottom: .32ex;
+  }
+}
+
+.c-icon--plus {
+  width: .75em;
+  height: .75em;
+  bottom: 0;
+  margin-right: $unit-small;
+}
+
+.c-icon--plus__vert {
+  transform: scaleY(100%);
+  transform-origin: center;
+  transition: transform $duration $easing;
+
+  [aria-expanded="true"] & {
+    transform: scaleY(0);
+  }
+}

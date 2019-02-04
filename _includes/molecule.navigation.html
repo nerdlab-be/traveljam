@@ -1,0 +1,25 @@
+{% comment %}
+{% include molecule.navigation.html %}
+{% endcomment %}
+<nav>
+  {% include atom.hamburger.html %}
+
+  <ul class="o-list-bare c-navigation js-nav">
+    <!-- Define your site navigation in _config.yml -->
+    {% for item in site.navigation %}
+    <li class="c-navigation__item {% if page.url contains item.url %} is-active{% endif %}">
+      <a href="/{{ item.url }}" class="c-link c-link--bare c-link--nav ">{{ item.title | capitalize }}</a>
+    </li>
+    {% endfor %}
+
+    <!-- Navigation CTA -->
+    {% for item in site.navigation-cta %}
+    <li class="c-navigation__item">
+      <a href="/{{ item.url }}" alt="Contact" class="c-btn c-btn--secondary c-btn--ghost">
+        {{ item.title | capitalize }} {% include atom.icon.html value="arrow" %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
+

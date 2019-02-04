@@ -1,0 +1,9 @@
+{% comment %}
+{% include atom.form-textarea.html id="text-input" placeholder="E.g. placeholder text" label="Label" optional="Optional" %}
+{% endcomment %}
+<p class="c-field">
+  <label for="{{ include.id }}" class="c-label">
+    {{ include.label }}{% if include.optional %}<span class="c-badge c-badge--negative">{{ include.optional }}</span>{% endif %}
+  </label>
+  <textarea id="{{ include.id }}" rows="10"{% if include.placeholder %} placeholder="{{ include.placeholder }}"{% endif %} class="c-textarea"></textarea>
+</p>

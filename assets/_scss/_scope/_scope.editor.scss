@@ -1,0 +1,115 @@
+/* ==================================
+   #EDITOR
+   ================================== */
+
+.s-editor {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-secondary;
+    margin-bottom: 0;
+  }
+
+  h1 + *,
+  h2 + *,
+  h3 + *,
+  h4 + *,
+  h5 + *,
+  h6 + * {
+    margin-top: $unit-small;
+  }
+
+
+  * + h1,
+  * + h2,
+  * + h3,
+  * + h4,
+  * + h5,
+  * + h6 {
+    margin-top: $unit;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  p + p {
+    margin-top: $unit-small;
+  }
+
+  h1 {
+    @include font-size($h3);
+  }
+
+  h2 {
+    @include font-size($h5);
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include font-size($h6);
+  }
+
+  p {
+    @include font-size($tiny,1.5);
+  }
+
+  a {
+    transition: color $duration $easing;
+
+    &,
+    &:visited {
+      color: $color-secondary;
+    }
+
+    &:hover,
+    &:focus {
+      color: $color-secondary-dark;
+    }
+
+    &:focus {
+      background-color: $color-primary-xlight;
+      outline: 4px solid $color-primary-xlight;
+    }
+
+    .s-theme-primary-xlight &:focus {
+      background-color: tint($color-primary-xlight,50);
+      outline: 4px solid tint($color-primary-xlight,50);
+    }
+  }
+
+  @include mq(medium) {
+    * + h1,
+    * + h2,
+    * + h3,
+    * + h4,
+    * + h5,
+    * + h6 {
+      margin-top: $unit-large;
+    }
+
+    h1 {
+      @include font-size($h2);
+    }
+
+    h2 {
+      @include font-size($h3);
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      @include font-size($h4);
+    }
+
+    p {
+      @include font-size($h6);
+    }
+  }
+}

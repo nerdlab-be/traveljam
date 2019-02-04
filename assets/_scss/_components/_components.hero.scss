@@ -1,0 +1,55 @@
+/* ==================================
+   #HERO
+   ================================== */
+
+.c-hero {
+  position: relative;
+  color: $white;
+}
+
+  .c-hero__image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 100%;
+    background-color: $color-neutral;
+
+    > img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      max-width: none;
+      transform: translate(-50%, -50%);
+      opacity: .2;
+    }
+
+    @include mq(480px) {
+      padding-bottom: (3/4) * 100%;
+    }
+
+    @include mq(small) {
+      padding-bottom: (9/16) * 100%;
+    }
+
+    @include mq(medium) {
+      padding-bottom: (10/21) * 100%;
+    }
+
+    @include mq(large) {
+      padding-bottom: (10/24) * 100%;
+    }
+  }
+
+  .c-hero__body {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+
+    & > *:last-child,
+    & > .o-wrapper > *:last-child {
+      margin-bottom: 0;
+    }
+  }

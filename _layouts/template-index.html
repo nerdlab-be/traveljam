@@ -1,0 +1,184 @@
+---
+layout: default
+---
+
+<section class="c-hero c-illustration">
+  <span class="c-illustration__item c-illustration__item--top-right" role="presentation" aria-hidden="true"></span>
+  <span class="c-illustration__item c-illustration__item--bottom-left" role="presentation" aria-hidden="true"></span>
+  <div class="c-hero__image">
+    <img src="{{ page.hero.image }}" alt="{{ page.hero.imageAlt }}">
+  </div>
+  <div class="c-hero__body o-row-large">
+    <div class="o-wrapper o-wrapper--large">
+      <div class="o-box o-box--flush">
+        <h1 class="c-page-title">{{ page.hero.title }}</h1>
+        <ul class="o-list-bare c-list-big">
+          <li class="c-list-big__item">{% include atom.icon.html value="date" %} {{ page.hero.date }}</li>
+          <li class="c-list-big__item"><a href="{{ page.hero.locationLink }}" class="c-link c-link--faux c-link--negative" target="_blank">{% include atom.icon.html value="location" %} {{ page.hero.location}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="opdracht" class="o-row-large s-theme-secondary">
+  <div class="o-wrapper o-wrapper--large">
+    <div class="o-layout u-margin-bottom">
+      <div class="o-layout__item u-2/3@medium">
+        <h2 class="c-title">{{ page.opdracht.title }}</h2>
+        <p class="c-lead u-margin-bottom-none">
+          {{ page.opdracht.para }}
+        </p>
+      </div>
+    </div>
+    <div class="o-layout o-layout--small">
+      <div class="o-layout__item u-2/3@medium u-push-1/3@medium">
+        <h3 class="c-subtitle">{{ page.opdracht.subtitle }}</h3>
+        <ul class="o-list-bare c-list u-margin-bottom">
+          {% for item in page.opdracht.list %}
+          <li class="c-list__item">{% include atom.icon.html value="check" %} {{ item.para }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="o-layout o-layout--flush s-theme-secondary">
+  {% for item in page.opdracht.images %}
+  <div class="o-layout__item u-1/3">
+    <div class="o-crop o-crop--fit o-crop--16:9 c-image c-image--one">
+      <img src="{{ item.image }}" alt="{{ item.alt }}" class="o-crop__content o-crop__content--center">
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<section id="programma" class="o-row-large s-theme-white c-illustration">
+  <span class="c-illustration__item c-illustration__item--top-left" role="presentation" aria-hidden="true"></span>
+  <span class="c-illustration__item c-illustration__item--bottom-right" role="presentation" aria-hidden="true"></span>
+  <div class="o-wrapper o-wrapper--large">
+    <h2 class="c-title u-margin-bottom u-margin-bottom-large@medium u-text-center">{{ page.program.title }}</h2>
+    <div class="o-layout o-layout--small">
+      <div class="o-layout__item">
+        <article class="c-card c-card--neutral">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.dataTitle }} <span class="c-date">{{ page.program.dataDate }}</span></h3>
+            <p class="c-para">{{ page.program.dataPara }}</p>
+          </div>
+        </article>
+      </div>
+      <div class="o-layout__item u-1/2@medium">
+        <article class="c-card">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.friday }} <span class="c-date">{{ page.program.fridayDate }}</span></h3>
+            <ul class="o-list-bare c-list-agenda">
+              {% for item in page.program.scheduleFriday %}
+              <li class="c-list-agenda__item"><strong class="c-badge">{{ item.hour }}</strong> {{ item.para }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="o-layout__item u-1/2@medium">
+        <article class="c-card">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.saturday }} <span class="c-date">{{ page.program.saturdayDate }}</span></h3>
+            <ul class="o-list-bare c-list-agenda">
+              {% for item in page.program.scheduleSaturday %}
+              <li class="c-list-agenda__item"><strong class="c-badge">{{ item.hour }}</strong> {{ item.para }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="coaches" class="o-row-large s-theme-primary-xlight">
+  <div class="o-wrapper o-wrapper--large">
+    <h2 class="c-title u-margin-bottom u-margin-bottom-large@medium u-text-center">{{ page.coaches.title }}</h2>
+    <ul class="o-layout o-layout--center u-margin-bottom">
+      {% comment %}
+      Edit coaches in _data/coaches.yml
+      {% endcomment %}
+      {% for item in site.data.coaches %}
+      <li class="o-layout__item u-1/2@small u-1/3@large">
+        {% include molecule.card.html image=item.image title=item.title body=item.body footnote=item.footnote link=item.link %}
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="c-lead u-text-center u-margin-bottom-none">
+      <a href="{{ page.coaches.linkHref }}" class="c-link c-link--faux">{{ page.coaches.link }}</a>
+    </p>
+  </div>
+</section>
+
+<section id="inschrijven" class="o-row-large s-theme-primary-dark c-illustration">
+  <span class="c-illustration__item c-illustration__item--top-right-alt" role="presentation" aria-hidden="true"></span>
+  <span class="c-illustration__item c-illustration__item--bottom-left-alt" role="presentation" aria-hidden="true"></span>
+  <div class="o-wrapper">
+    <div class="o-box u-text-center">
+      <h2 class="c-title">{{ page.subscribe.title }}</h2>
+      <p class="c-lead">
+        {{ page.subscribe.para }}
+      </p>
+      <p>
+        <a href="{{ page.subscribe.linkHref }}" class="c-btn c-btn--secondary c-btn--large">{{ page.subscribe.link }} {% include atom.icon.html value="arrow" %}</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="data" class="o-row-large s-theme-secondary-light c-illustration">
+  <span class="c-illustration__item c-illustration__item--bottom-right-alt" role="presentation" aria-hidden="true"></span>
+  <div class="o-wrapper o-wrapper--large">
+    <div class="o-box o-box--flush">
+      <h2 class="c-title c-title--border u-margin-bottom u-text-center">Open data en tools</h2>
+      <div class="o-layout u-divider-top">
+        <div class="o-layout__item u-1/3@medium">
+          <h3 class="c-small-title">Duidelijke data</h3>
+          <p class="c-para-small">Data die rechtstreeks te maken heeft met milieu en haar problematieken:</p>
+          <ul class="o-list-bare c-list-small">
+            <li class="c-list-small__item"><a href="https://www.vmm.be/lucht" target="_blank" class="c-link c-link--faux">Luchtkwaliteit{% include atom.icon.html value="external" %}</a> metingen afkomstig van <a href="https://www.brugge.be/open-data-milieu-natuur#lk" target="_blank" class="c-link c-link--faux">de meetfiets (mobiel){% include atom.icon.html value="external" %}</a> en van vaste meetpunten. Maar ook <a href="https://www.brugge.be/seapdefpdf" target="_blank" class="c-link c-link--faux">de CO2 uitstoot{% include atom.icon.html value="external" %}</a></li>
+            <li class="c-list-small__item">Waterkwaliteit: <a href="https://www.vmm.be/water/afvalwater/meetresultaten" target="_blank" class="c-link c-link--faux">alles over afvalwater{% include atom.icon.html value="external" %}</a></li>
+            <li class="c-list-small__item">Geluidsoverlast: <a href="https://www.lne.be/geluidsbelastingkaarten" target="_blank" class="c-link c-link--faux">Overlastkaarten{% include atom.icon.html value="external" %}</a></li>
+            <li class="c-list-small__item"><a href="https://www.brugge.be/open-data-milieu-natuur#wt" target="_blank" class="c-link c-link--faux">Windturbines {% include atom.icon.html value="external" %}</a> locaties van de windturbines op het grondgebied.</li>
+            <li class="c-list-small__item"><a href="https://www.brugge.be/open-data-mobiliteit#lp" target="_blank" class="c-link c-link--faux">Laadpalen {% include atom.icon.html value="external" %}</a> locatie van de aanwezige en geplande elektrische laadpalen voor auto’s.</li>
+            <li class="c-list-small__item"><a href="https://www.brugge.be/open-data-milieu-natuur#afval" target="_blank" class="c-link c-link--faux">Afvalophaling {% include atom.icon.html value="external" %}</a> IVBO ophaalrondes opgedeeld per sector met gewichten per fractie voor de maand mei.</li>
+            <li class="c-list-small__item">Klimaatopwarmngen: <a href="https://klimaat.vmm.be/kaartapplicatie-thema-1" target="_blank" class="c-link c-link--faux">Voorspellingen{% include atom.icon.html value="external" %}</a></li>
+          </ul>
+          <p class="c-para-small">Alle Open Data over Milieu je op het <a href="https://www.brugge.be/open-data-milieu-natuur" target="_blank" class="c-link c-link--faux">Open Data Portaal {% include atom.icon.html value="external" %}</a></p>
+        </div>
+        <div class="o-layout__item u-1/3@medium">
+          <h3 class="c-small-title js-collapsed__title">Minder duidelijke data</h3>
+          <p class="c-para-small">Info waarmee je iets kan uit leren over milieu, ideaal om te mixen.</p>
+          <ul class="o-list-bare c-list-small">
+            <li class="c-list-small__item"><a href="https://apps.energiesparen.be/zonnekaart" target="_blank" class="c-link c-link--faux">Potentieel zonnepanelen {% include atom.icon.html value="external" %}</a> of gewoon waar je het best bruin wordt.</li>
+            <li class="c-list-small__item"><a href="https://www.brugge.be/open-data-mobiliteit#vtiv" target="_blank" class="c-link c-link--faux">Over Auto's {% include atom.icon.html value="external" %}</a>: waar ze bijvoorbeeld 90 mogen of met hoevelen ze de stad binnenkomen.</li>
+            <li class="c-list-small__item">Waar <a href="https://www.brugge.be/open-data-grondgebied#Bedrijventerreinen" target="_blank" class="c-link c-link--faux">de bedrijventerreinen {% include atom.icon.html value="external" %}</a>zich bevinden</li>
+            <li class="c-list-small__item"><a href="https://www.brugge.be/open-data-grondgebied#energieverbruik" target="_blank" class="c-link c-link--faux">Energieverbruik {% include atom.icon.html value="external" %}</a>: Vlaamse kaartinfo. Vooral info over natuurlijke gegevens als hoogtes en overstromingsgebieden</li>
+            <li class="c-list-small__item"><a href="https://www.brugge.be/open-data-grondgebied#GroenBr" target="_blank" class="c-link c-link--faux">Groeninventaris {% include atom.icon.html value="external" %}</a>: open data van bibliotheken en musea</li>
+            <li class="c-list-small__item"><a href="https://www.natuurpunt.be/pagina/betonrapport-van-vlaamse-gemeenten-en-provincies" target="_blank" class="c-link c-link--faux">Betonrapport {% include atom.icon.html value="external" %}</a>: hoe meer beton, hoe moeilijker het water weg kan bij overstromingen</li>
+            <li class="c-list-small__item"><a href="https://foodlab.brugge.be/" target="_blank" class="c-link c-link--faux">Duurzame voeding {% include atom.icon.html value="external" %}</a>: het Brugse Foodlab</li>
+            
+          
+          </ul>
+          <p class="c-para-small">Of snuister door alle data van <a href="https://www.brugge.be/opendata" target="_blank" class="c-link c-link--faux">Stad Brugge {% include atom.icon.html value="external" %}</a></p>
+
+        </div>
+        <div class="o-layout__item u-1/3@medium">
+          <h3 class="c-small-title js-collapsed__title">Vlaamsche Datasets</h3>
+          <p class="c-para-small">Binnen verschillende thema's heeft Vlaanderen maar ook de regio rond Brugge verschillende datasets beschikbaar. Gewoon snoepen.</p>
+          <ul class="o-list-bare c-list-small">
+            <li class="c-list-small__item"><a href="https://opendata.vlaanderen.be/dataset?q=milieu" target="_blank" class="c-link c-link--faux">Open data portaal EU {% include atom.icon.html value="external" %}</a>: meer dan 10k datasets over alles wat je op europees niveau wil bijhouden.</li>
+            <li class="c-list-small__item"><a href="https://data.gov.be/nl" target="_blank" class="c-link c-link--faux">Data.gov {% include atom.icon.html value="external" %}</a>: 6500 datasets in allerlei onderwerpen op nationaal niveau</li>
+            <li class="c-list-small__item"><a href="https://download.agiv.be/catalogus" target="_blank" class="c-link c-link--faux">Agentschap voor geografische info {% include atom.icon.html value="external" %}</a>: Vlaamse kaartinfo. Vooral info over natuurlijke gegevens als hoogtes en overstromingsgebieden</li>
+            <li class="c-list-small__item">De resultaten van <a href="https://viewer.curieuzeneuzen.be/" target="_blank" class="c-link c-link--faux">het Curiuezeneuze onderzoek {% include atom.icon.html value="external" %}</a> die hun data nog niet wilden vrijgeven</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

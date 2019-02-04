@@ -1,0 +1,168 @@
+// ==================================
+// #GLOBAL
+// ==================================
+
+// The global settings file contains any project-wide variables; things that
+// need to be made available to the entire codebase.
+
+
+
+/// Page-level constraining and wrapping elements.
+
+$inuit-wrapper-width: 800px;
+$inuit-wrapper-width-tiny: 320px;
+$inuit-wrapper-width-small: 720px;
+$inuit-wrapper-width-large: 1200px;
+$inuit-wrapper-width-huge: 1420px;
+$inuit-wrapper-breakpoint: medium !default;
+
+
+
+
+
+// Breakpoints (https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.necmuodfd)
+
+$mq-breakpoints: (
+  small: 600px,
+  medium: 900px,
+  large: 1200px,
+  huge: 1420px,
+  xhuge: 1500px
+);
+
+// $mq-show-breakpoints: (small, medium, large, huge);
+
+
+
+
+
+// Font styles
+
+$inuit-font-family-primary: 'Noto Serif', serif;
+$inuit-font-family-secondary: 'Cairo', sans-serif;
+$inuit-font-weight-regular: 400;
+$inuit-font-weight-medium: 500;
+$inuit-font-weight-bold: 700;
+
+
+
+
+
+// Heading sizes
+
+$inuit-font-size-huge: 70px;
+$inuit-font-size-large: 60px;
+$inuit-font-size-h1: 42px;
+$inuit-font-size-h2: 36px;
+$inuit-font-size-h3: 24px;
+$inuit-font-size-h4: 21px;
+$inuit-font-size-h5: 18px;
+$inuit-font-size-h6: 16px;
+$inuit-font-size-small: 16px;
+$inuit-font-size-tiny: 14px;
+
+
+
+
+
+// Standardise some UI treatments.
+$global-radius: 4px;
+$global-duration: (1/2) + s;
+$global-easing: cubic-bezier(0.190,  1.000, 0.220, 1.000);
+$global-transition: $global-duration $global-easing;
+$btn-ghost-border-width: 2px;
+
+
+
+
+
+// Z-indexes
+$z-index-alpha: 1;
+$z-index-beta: 2;
+$z-index-gamma: 3;
+
+
+
+
+
+// Crops & ratio's: a list of cropping ratios that get generated as modifier classes.
+
+$inuit-crops: (
+  "21\\:9"  : (21:9),
+  "16\\:9"  : (16:9),
+  "9\\:16"  : (13.9:16),
+  "4\\:3" : (4:3),
+  "5\\:4" : (5:4),
+  "1\\:1" : (1:1)
+);
+
+$inuit-ratios: (
+  "2\\:1"   : (2:1),
+  "4\\:3"   : (4:3),
+  "16\\:9"  : (16:9),
+  "21\\:9"  : (21:9)
+);
+
+
+
+
+
+// Width utilities
+
+$inuit-fractions: 1 2 3 4 5 6 7;
+$inuit-widths-delimiter: \/;
+$inuit-widths-breakpoint-separator: \@;
+// Be aware that enabling offsets produces a large chunk of classes which might
+// bloat your CSS, depending of the amount of breakpoints you defined.
+// Only set this to `true` if you are absolutely sure about what you are doing.
+$inuit-offsets: true;
+
+
+
+
+
+// Spacing utilities
+
+$inuit-spacing-directions: (
+  null: null,
+  '-top': '-top',
+  '-right': '-right',
+  '-bottom': '-bottom',
+  '-left': '-left',
+);
+
+$inuit-spacing-properties: (
+  'padding': 'padding',
+  'margin': 'margin',
+);
+
+$inuit-spacing-sizes: (
+  null: $inuit-global-spacing-unit,
+  '-tiny': $inuit-global-spacing-unit-tiny,
+  '-small': $inuit-global-spacing-unit-small,
+  '-large': $inuit-global-spacing-unit-large,
+  '-huge': $inuit-global-spacing-unit-huge,
+  '-none': 0
+);
+
+$inuit-responsive-spacing-directions: (
+  null: null,
+  '-top': '-top',
+  '-right': '-right',
+  '-bottom': '-bottom',
+  '-left': '-left',
+);
+
+$inuit-responsive-spacing-properties: (
+  'padding': 'padding',
+  'margin': 'margin',
+);
+
+$inuit-responsive-spacing-sizes: (
+  null: $inuit-global-spacing-unit,
+  '-tiny': $inuit-global-spacing-unit-tiny,
+  '-small': $inuit-global-spacing-unit-small,
+  '-large': $inuit-global-spacing-unit-large,
+  '-huge': $inuit-global-spacing-unit-huge,
+  '-none': 0
+);

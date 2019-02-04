@@ -1,0 +1,45 @@
+{% comment %}
+{% include molecule.social-links.html %}
+{% endcomment %}
+<ul class="o-list-bare c-list-inline">
+  {% if site.social.twitter_username %}
+  <li class="c-list-inline__item">
+    <a href="https://twitter.com/{{ site.social.twitter_username }}" class="c-link c-link--bare" target="_blank">
+      {% include atom.icon.html value="twitter" %}
+      Twitter
+    </a>
+  </li>
+  {% endif %}
+  {% if site.social.instagram_username %}
+  <li class="c-list-inline__item">
+    <a href="https://instagram.com/{{ site.social.twitter_username }}" class="c-link c-link--bare" target="_blank">
+      {% include atom.icon.html value="instagram" %}
+      Instagram
+    </a>
+  </li>
+  {% endif %}
+  {% if site.social.dribbble_username %}
+  <li class="c-list-inline__item">
+    <a href="https://dribbble.com/{{ site.social.dribbble_username }}" class="c-link c-link--bare" target="_blank">
+      {% include atom.icon.html value="dribbble" %}
+      Dribbble
+    </a>
+  </li>
+  {% endif %}
+  {% if site.social.github_username %}
+  <li class="c-list-inline__item">
+    <a href="https://github.com/{{ site.social.github_username }}" class="c-link c-link--bare" target="_blank">
+      {% include atom.icon.html value="github" %}
+      Github
+    </a>
+  </li>
+  {% endif %}
+  {% if site.social.medium_username %}
+  <li class="c-list-inline__item">
+    <a href="https://medium.com/{{ site.social.medium_username }}" class="c-link c-link--bare" target="_blank">
+      {% include atom.icon.html value="medium" %}
+      Medium
+     </a>
+  </li>
+  {% endif %}
+</ul>

@@ -1,0 +1,18 @@
+{% comment %}
+{% include atom.form-select.html id="select" label="Label" dataset="site.data.countries" optional="Optional" %}
+{% endcomment %}
+<fieldset class="c-fieldset">
+    <p class="c-field">
+      <label for="{{ include.id }}" class="c-label">
+        {{ include.label }}{% if include.optional %}<span class="c-badge c-badge--negative">{{ include.optional }}</span>{% endif %}
+      </label>
+      <span class="c-select">
+        <select id="{{ include.id }}">
+          <option value=""></option>
+          {% for item in include.dataset %}
+          <option value="{{ item.title}}">{{ item.title}}</option>
+          {% endfor %}
+        </select>
+      </span>
+    </p>
+  </fieldset>

@@ -1,0 +1,33 @@
+/* ==================================
+   #THEME
+   ================================== */
+
+.s-theme-white {
+  color: $color-neutral-dark;
+  background-color: $white;
+}
+
+.s-theme-neutral-xxlight {
+  color: $color-neutral-dark;
+  background-color: $color-neutral-xxlight;
+}
+
+.s-theme-primary-xlight {
+  color: $color-primary-dark;
+  background-color: $color-primary-xlight;
+}
+
+.s-theme-primary-dark {
+  color: $white;
+  background-color: $color-primary-dark;
+}
+
+.s-theme-secondary {
+  color: $white;
+  background-color: $color-secondary;
+}
+
+.s-theme-secondary-light {
+  color: shade($color-secondary-xlight,60);
+  background-color: $color-secondary-xlight;
+}

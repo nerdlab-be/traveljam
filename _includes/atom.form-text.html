@@ -1,0 +1,9 @@
+{% comment %}
+{% include atom.form-text.html id="text-input" placeholder="E.g. placeholder text" label="Label" optional="Optional" %}
+{% endcomment %}
+<p class="c-field">
+  <label for="{{ include.id }}" class="c-label">
+    {{ include.label }}{% if include.optional %}<span class="c-badge c-badge--negative">{{ include.optional }}</span>{% endif %}
+  </label>
+  <input id="{{ include.id }}" type="text"{% if include.placeholder %} placeholder="{{ include.placeholder }}"{% endif %} class="c-input" />
+</p>

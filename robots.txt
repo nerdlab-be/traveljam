@@ -1,0 +1,3 @@
+# Disable indexing of this prototype
+User-agent: *
+Disallow: /

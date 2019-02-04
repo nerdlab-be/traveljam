@@ -1,0 +1,6 @@
+{% comment %}
+{% include atom.icon.html value="arrow" class="c-icon--small" %}
+{% endcomment %}
+<svg role="img" class="c-icon c-icon--{{ include.value }}{% if include.class %} {{ include.class }}{% endif %}">
+  <use xlink:href="/assets/img/svg/svg-symbols.svg#{{ include.value }}"></use>
+</svg>

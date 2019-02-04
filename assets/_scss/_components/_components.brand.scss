@@ -1,0 +1,44 @@
+/* ==================================
+   #BRAND
+   ================================== */
+
+// Set global font style @TODO: should this be in elements.page?
+.c-brand {
+  font-family: $font-primary;
+}
+
+// Logo
+.c-brand-mark {
+  &,
+  & > .c-brand-mark__link {
+    @include font-size($h6,1);
+    white-space: nowrap;
+    position: relative;
+    color: $color-primary-dark;
+    font-weight: $bold;
+    text-decoration: none;
+    margin-bottom: 0;
+    padding-top: $unit-tiny/4;
+  }
+
+
+}
+
+.c-logo {
+  display: block;
+  width: calc(196px / 2);
+  height: calc(122px / 2);
+
+  @include mq(small) {
+    width: 196px;
+    height: 122px;
+  }
+}
+
+.c-partner {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}

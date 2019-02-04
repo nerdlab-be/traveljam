@@ -1,0 +1,12 @@
+{% comment %}
+{% include molecule.card.html image="jpg/stock-1.jpg" title="Card title" body="​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​" link="#!" %}
+{% endcomment %}
+<article class="c-card c-card--link s-theme-white">
+  <div class="c-card__image o-ratio o-ratio--16:9">
+    <img src="/assets/img/{{ include.image }}" alt="Stock image" class="o-ratio__content">
+  </div>
+  <div class="o-box c-card__body">
+    <h3 class="c-subtitle u-margin-bottom-small"><a href="{{ include.link }}" class="c-link c-link--bare c-card__link">{{ include.title }}</a></h3>
+    <p class="c-para">​{{ include.body }}</p>
+  </div>
+</article>

@@ -1,0 +1,125 @@
+/* ==================================
+   #NAVIGATION
+   ================================== */
+
+.has-nav {
+  overflow: auto;
+}
+
+.c-navigation {
+  @include font-size($h4);
+  font-family: $font-secondary;
+  margin-bottom: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include mq($until: medium) {
+    position: fixed;
+    z-index: $z-index-beta;
+    overflow: auto;
+    background-color: shade($color-primary,50);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: $unit-huge $unit;
+    transform: scale(0);
+
+    &.is-visible {
+      transform: scale(1);
+      transition: all $duration $easing;
+    }
+  }
+
+  @include mq(medium) {
+    @include font-size($h5);
+    flex-direction: row;
+  }
+}
+
+  .c-navigation__item {
+    white-space: nowrap;
+    width: 100%;
+
+    & + & {
+      margin-top: $unit;
+      padding-top: $unit;
+      border-top: 1px solid shade($color-primary,30);
+    }
+
+    @include mq(medium) {
+      display: block;
+      width: auto;
+
+      & + & {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: 0;
+        margin-left: $unit-large;
+      }
+    }
+  }
+
+// Mobile navigation toggle
+.c-navigation-toggle {
+  @include font-size($tiny);
+  font-family: $font-primary;
+  font-weight: $medium;
+  position: absolute;
+  top: $unit/1.5;
+  right: $unit/1.5;
+  z-index: $z-index-gamma;
+  border: 0;
+  color: $color-primary;
+  background-color: transparent;
+  transition: $global-transition;
+
+  .has-nav & {
+    position: fixed;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  @include mq(medium) {
+    display: none;
+  }
+}
+
+// Hamburger icon and animation
+.c-hamburger {
+  display: block;
+  stroke: currentColor;
+  stroke-width: 6px;
+  stroke-linecap: round;
+  width: 44px;
+  height: 32px;
+}
+
+  .c-hamburger__line {
+    transition: all $duration $easing;
+    transform-origin: center;
+
+    &:nth-child(3) {
+      opacity: 0;
+    }
+  }
+
+  [aria-expanded='true'] .c-hamburger__line {
+    &:nth-child(2) {
+      transform: rotate(45deg);
+    }
+
+    &:nth-child(3) {
+      transform: rotate(-45deg);
+      opacity: 1;
+    }
+
+    &:first-child,
+    &:last-child {
+      transform: scale(0);
+    }
+  }

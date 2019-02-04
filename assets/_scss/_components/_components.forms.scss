@@ -1,0 +1,36 @@
+/* ==================================
+   #FORMS
+   ================================== */
+
+.c-field {
+  position: relative;
+
+  & + & {
+    margin-top: $unit;
+  }
+}
+
+.c-field--check,
+.c-field--radio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c-legend {
+  @include font-size($h6);
+  font-weight: $bold;
+  margin-bottom: $unit-small;
+}
+
+.c-label {
+  @include font-size($small);
+  display: block;
+  color: $color-neutral;
+  margin-bottom: $unit-tiny;
+
+  .c-field--check & {
+    color: $color-neutral-dark;
+    margin-bottom: $unit-tiny;
+    width: calc(100% - #{$unit});
+  }
+}

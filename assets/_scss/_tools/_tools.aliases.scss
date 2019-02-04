@@ -1,0 +1,40 @@
+// ==================================
+// #ALIASES
+// ==================================
+
+// Mixins
+@mixin font-size($font-size, $line-height: auto, $modifier: 0, $important: false) {
+  @include inuit-font-size($font-size, $line-height, $modifier, $important)
+}
+
+// Units
+$unit: $inuit-global-spacing-unit;
+$unit-tiny: $inuit-global-spacing-unit-tiny;
+$unit-small: $inuit-global-spacing-unit-small;
+$unit-large: $inuit-global-spacing-unit-large;
+$unit-huge: $inuit-global-spacing-unit-huge;
+
+// Font size
+$huge: $inuit-font-size-huge;
+$large: $inuit-font-size-large;
+$h1: $inuit-font-size-h1;
+$h2: $inuit-font-size-h2;
+$h3: $inuit-font-size-h3;
+$h4: $inuit-font-size-h4;
+$h5: $inuit-font-size-h5;
+$h6: $inuit-font-size-h6;
+$small: $inuit-font-size-small;
+$tiny: $inuit-font-size-tiny;
+
+// Font settings
+$font-primary: $inuit-font-family-primary;
+$font-secondary: $inuit-font-family-secondary;
+$regular: $inuit-font-weight-regular;
+$medium: $inuit-font-weight-medium;
+$bold: $inuit-font-weight-bold;
+
+// UI
+$radius: $global-radius;
+$duration: $global-duration;
+$easing: $global-easing;
+$transition: $global-transition;

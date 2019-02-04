@@ -1,0 +1,44 @@
+{% comment %}
+{% include organism.head.html %}
+{% endcomment %}
+<head>
+  {% comment %}
+  Default meta tags to set charset, responsive viewport and proper IE behaviour.
+  {% endcomment %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ site.title }} – {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  {% comment %}
+  Stylesheets
+  {% endcomment %}
+  <link rel="stylesheet" href="/assets/css/screen.css">
+
+  {% comment %}
+  Canonical link (for SEO)
+  {% endcomment %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html',''| prepend: site.url }}">
+
+  {% comment %}
+  Facebook OG meta tags (https://developers.facebook.com/docs/sharing/best-practices#tags)
+  {% endcomment %}
+  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ '/assets/img/jpg/og-image.jpg' | prepend: site.url }}{% endif %}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  {% comment %}
+  Twitter card meta tags (https://dev.twitter.com/cards/types/summary)
+  {% endcomment %}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{ site.social.twitter_username | remove: '@' }}" />
+  <meta name="twitter:title" content="{% if page.title %}{{ site.title }} – {{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:url" content="{{ page.url | prepend: site.url }}" />
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ '/assets/img/jpg/twitter-image.jpg' | prepend: site.url }}{% endif %}" />
+  <meta name="twitter:image:alt" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+</head>
