@@ -58,6 +58,10 @@
   font-family: $font-primary;
   font-weight: $bold;
 
+  .s-theme-white & {
+    color: $color-primary;
+  }
+
   @include mq(medium) {
     @include font-size($h4,1.5);
   }

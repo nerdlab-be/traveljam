@@ -11,7 +11,7 @@ hero:
   image: "/assets/img/jpg/header.jpg"
   imageAlt: "Traveljam 2019"
 opdracht:
-  title: "Story:"
+  title: "Bruges - Ghent - Brussels - Antwerp - Mechelen - Leuven"
   para: "We take you to the year 2050. The future is uncertain and the further you go from today, the more uncertain it will become. We at TravelJam see quantum mechanics so that every possible future will happen at the same time. At 26/4 in the beacon in Antwerp, five are happening at once. You are sent there to examine the futures, to understand and to put them upside down."
   subtitle: "Assignment:"
   subpara: "In 2050 things will be different. We will get the climate fixed and cure some dreadful diseases but the information consumption will still be changing. Your job is to work from one possible future and find ways for the future city trippers of Flanders and Brussels to gather and consumer tourist info."

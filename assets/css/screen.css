@@ -2075,6 +2075,10 @@ table {
   font-weight: 700;
 }
 
+.s-theme-white .c-subtitle {
+  color: #23988D;
+}
+
 @media (min-width: 56.25em) {
   .c-subtitle {
     font-size: 21px;
