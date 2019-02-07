@@ -4,7 +4,7 @@
 
 // Set global font style @TODO: should this be in elements.page?
 .c-brand {
-  font-family: $font-primary;
+  font-family: $font-secondary;
 }
 
 // Logo
@@ -28,10 +28,17 @@
   display: block;
   width: calc(196px / 2);
   height: calc(122px / 2);
+  margin-top: -$unit-small;
 
   @include mq(small) {
-    width: 196px;
-    height: 122px;
+    width: calc(196px / 1.5);
+    height: calc(122px / 1.5);
+  }
+
+  @include mq(medium) {
+    margin-top: -$unit;
+    width: calc(196px / 1.3);
+    height: calc(122px / 1.3);
   }
 }
 

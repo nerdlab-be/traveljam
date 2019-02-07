@@ -5,20 +5,24 @@
 .c-card {
   position: relative;
   border-radius: $radius;
-  box-shadow: 0 0 0 2px rgba($color-neutral,.1);
+  box-shadow: 0 0 0 2px rgba($color-primary-dark,.1);
   transition: box-shadow $duration $easing;
   height: 100%;
 }
 
 .c-card--neutral {
-  background-color: rgba($color-neutral-light,.5);
+  background-color: rgba($color-neutral-xxlight,.5);
+}
+
+.c-card--white {
+  background-color: rgba($white,1);
 }
 
 .c-card--link {
   &:hover,
   &:focus,
   &:focus-within {
-    box-shadow: 0 10px 10px rgba($color-neutral,.1), 0 0 0 2px rgba($color-neutral,.3);
+    box-shadow: 0 10px 10px rgba($color-neutral,.1), 0 0 0 2px rgba($color-primary-dark,.15);
   }
 }
 

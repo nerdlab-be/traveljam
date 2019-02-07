@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="o-row-large s-theme-secondary">
+  <div class="o-wrapper">
+    <h1 class="c-title">{{ page.title }}</h1>
+    <p class="c-lead">
+      {{ page.para }}
+    </p>
+    <div class="s-editor">
+      <div class="c-card s-theme-white">
+        <div class="o-box c-mailchimp">
+          {% include molecule.form-signup.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -34,3 +34,128 @@
     width: calc(100% - #{$unit});
   }
 }
+
+.c-mailchimp {
+  font-weight: $light;
+
+  .mc-field-group {
+    margin-bottom: $unit;
+    padding-bottom: $unit;
+    // border-bottom: 2px solid tint($color-neutral-xxlight,20);
+  }
+
+  .mc-field-group > input {
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border-radius: $radius;
+    font-family: inherit;
+    margin: 0;
+    width: 100%;
+    display: block;
+    outline: none;
+    line-height: normal;
+    font-weight: $light;
+    color: $color-neutral;
+    background-color: $white;
+    border: 1px solid tint($color-neutral-xlight,20);
+    padding: $unit-tiny;
+    @include font-size($h6);
+
+    &:focus {
+      background-color: $white;
+      color: $color-neutral-dark;
+      box-shadow: 0 0 2px $color-neutral-xlight;
+    }
+
+    // Placeholder styles
+    &::-webkit-input-placeholder {
+      color: $color-neutral-light;
+      font-style: italic;
+    }
+
+    &::-moz-placeholder {
+      color: $color-neutral-light;
+      font-style: italic;
+    }
+
+    &:-ms-input-placeholder {
+      color: $color-neutral-light;
+      font-style: italic;
+    }
+
+    &:-moz-placeholder {
+      color: $color-neutral-light;
+      font-style: italic;
+    }
+  }
+
+  .mc-field-group > label {
+    display: block;
+    margin-bottom: $unit-small;
+  }
+
+  .input-group li {
+    display: flex;
+  }
+
+  .input-group label {
+    padding-left: $unit-tiny;
+  }
+
+  .input-group input {
+  }
+
+  .button {
+    display: inline-block;
+    vertical-align: middle;
+    font: inherit;
+    font-weight: $medium;
+    text-align: center;
+    margin: 0;
+    padding: $unit-small $unit;
+    transition: $transition;
+    border-radius: $radius;
+    border: 0;
+    background-color: $color-primary-dark;
+
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none; /* [4] */
+      color: $white;
+    }
+
+    &:focus {
+      outline: 0;
+      box-shadow: 0 0 0 6px rgba(shade($color-primary-xlight,20),.3);
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $color-primary;
+    }
+
+    @include mq(small) {
+      white-space: nowrap;
+    }
+  }
+
+  strong {
+    display: block;
+    margin-bottom: $unit-small;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    margin-top: $unit-small;
+    margin-bottom: 0;
+  }
+
+  li + li {
+    margin-top: $unit-tiny;
+    padding-top: $unit-tiny;
+  }
+}

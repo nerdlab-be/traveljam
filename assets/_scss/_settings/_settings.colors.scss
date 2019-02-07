@@ -48,11 +48,11 @@ $black                      : #445066;
 $color-neutral                : #333132;
 $color-neutral-xxlight        : tint($color-neutral,90);
 $color-neutral-xlight         : tint($color-neutral,60);
-$color-neutral-light          : $silver;
+$color-neutral-light          : tint($color-neutral,40);
 $color-neutral-dark           : $black;
 
 $color-primary                : #23988D;
-$color-primary-xlight         : tint($color-primary,80);
+$color-primary-xlight         : #E4F0EF;
 $color-primary-light          : tint($color-primary,70);
 $color-primary-dark           : shade($color-primary,25);
 

@@ -11,6 +11,7 @@
   h6 {
     font-family: $font-secondary;
     margin-bottom: 0;
+    color: $white;
   }
 
   h1 + *,
@@ -34,6 +35,7 @@
 
   p {
     margin-bottom: 0;
+    font-weight: $light;
   }
 
   p + p {
@@ -75,6 +77,16 @@
     &:focus {
       background-color: $color-primary-xlight;
       outline: 4px solid $color-primary-xlight;
+    }
+
+    .s-theme-primary-dark &,
+    .s-theme-primary-dark &:visited {
+      color: $color-neutral-xxlight;
+    }
+
+    .s-theme-primary-dark &:focus,
+    .s-theme-primary-dark &:hover {
+      color: $white;
     }
 
     .s-theme-primary-xlight &:focus {

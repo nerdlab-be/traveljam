@@ -19,15 +19,15 @@ title: "Traveljam"
 description: "Plan the most personal citytrip of 2050. 26th April 2019: 9 to 22h, The Beacon Antwerp"
 url: "https://traveljam.be"
 navigation:
-  - title: Opdracht
+  - title: Assignment
     url: "index.html#opdracht"
-  - title: Programma
+  - title: Schedule
     url: "index.html#programma"
-  - title: Open data
-    url: "index.html#data"
+  - title: Coaches
+    url: "index.html#coaches"
 navigation-cta:
-  - title: De resultaten
-    url: "index.html#inschrijven"
+  - title: Register
+    url: "register/"
 
 social:
   twitter_username: nerdlab9000

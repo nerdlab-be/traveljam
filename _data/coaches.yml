@@ -13,11 +13,6 @@
   image: jpg/novado.jpg
   link: "https://www.novado.be/"
 
-- title: Peter Viaene
-  body: Peter werkt als onderzoeker bij VITO waar we in onze onderzoeksgroep berekeningen doen en applicaties ontwikkelen die de overheid, bedrijven en de bevolking helpen in het kader van de luchtkwaliteitsproblematiek.
-  image: jpg/vito.jpg
-  link: "https://vito.be/"
-
 - title: Kasper Van Lombeek
   body: Kasper is data-scientist en dagelijks bezig met (open) data en energie. Met Rocketstate bouwt hij interessante projecten rond locatiedata. Voor wie in blijde verwachting is bouwde hij <a href="https://www.namesilike.com/">namesilike.com</a>.
   image: jpg/kasper.jpg

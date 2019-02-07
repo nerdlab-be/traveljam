@@ -19,7 +19,7 @@
     position: fixed;
     z-index: $z-index-beta;
     overflow: auto;
-    background-color: shade($color-primary,50);
+    background-color: $color-primary;
     top: 0;
     right: 0;
     bottom: 0;
@@ -65,19 +65,20 @@
 // Mobile navigation toggle
 .c-navigation-toggle {
   @include font-size($tiny);
-  font-family: $font-primary;
-  font-weight: $medium;
+  font-family: $font-secondary;
+  font-weight: $light;
   position: absolute;
-  top: $unit/1.5;
-  right: $unit/1.5;
+  top: $unit/1.3;
+  right: $unit/3;
   z-index: $z-index-gamma;
   border: 0;
-  color: $color-primary;
+  color: $color-neutral-light;
   background-color: transparent;
   transition: $global-transition;
 
   .has-nav & {
     position: fixed;
+    color: white;
   }
 
   &:focus {
@@ -94,8 +95,8 @@
   display: block;
   stroke: currentColor;
   stroke-width: 6px;
-  stroke-linecap: round;
-  width: 44px;
+  stroke-linecap: square;
+  width: 38px;
   height: 32px;
 }
 
