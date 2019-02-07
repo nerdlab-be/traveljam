@@ -46,7 +46,7 @@
     & + & {
       margin-top: $unit;
       padding-top: $unit;
-      border-top: 1px solid shade($color-primary,30);
+      border-top: 1px solid tint($color-primary,30);
     }
 
     @include mq(medium) {
@@ -68,7 +68,7 @@
   font-family: $font-secondary;
   font-weight: $light;
   position: absolute;
-  top: $unit/1.3;
+  top: $unit;
   right: $unit/3;
   z-index: $z-index-gamma;
   border: 0;
@@ -83,6 +83,11 @@
 
   &:focus {
     outline: 0;
+  }
+
+  @include mq(small) {
+    top: $unit * 1.5;
+    right: $unit;
   }
 
   @include mq(medium) {

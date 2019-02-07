@@ -167,15 +167,14 @@ $btn-ghost-border-width: 2px !default;
     &:focus {
       color: tint($color-secondary,20);
     }
-
   }
 
   .has-nav &.c-btn--secondary {
-    color: $color-secondary-light;
+    color: $white;
 
     &,
     &:visited {
-      color: $color-secondary-light;
+      color: $white;
     }
 
     &:hover,
@@ -184,6 +183,21 @@ $btn-ghost-border-width: 2px !default;
     }
   }
 
+  @include mq(medium) {
+    .has-nav &.c-btn--secondary {
+      color: $color-secondary;
+
+      &,
+      &:visited {
+        color: $color-secondary;
+      }
+
+      &:hover,
+      &:focus {
+        color: tint($color-secondary,20);
+      }
+    }
+  }
 }
 
 

@@ -1781,13 +1781,14 @@ table {
   display: block;
   width: calc(196px / 2);
   height: calc(122px / 2);
-  margin-top: -12px;
+  margin-top: -7.2px;
 }
 
 @media (min-width: 37.5em) {
   .c-logo {
     width: calc(196px / 1.5);
     height: calc(122px / 1.5);
+    margin-top: -12px;
   }
 }
 
@@ -1881,7 +1882,7 @@ table {
 .c-navigation__item + .c-navigation__item {
   margin-top: 24px;
   padding-top: 24px;
-  border-top: 1px solid #196a63;
+  border-top: 1px solid #65b7af;
 }
 
 @media (min-width: 56.25em) {
@@ -1904,7 +1905,7 @@ table {
   font-family: "Cairo", sans-serif;
   font-weight: 300;
   position: absolute;
-  top: 18.46154px;
+  top: 24px;
   right: 8px;
   z-index: 3;
   border: 0;
@@ -1921,6 +1922,13 @@ table {
 
 .c-navigation-toggle:focus {
   outline: 0;
+}
+
+@media (min-width: 37.5em) {
+  .c-navigation-toggle {
+    top: 36px;
+    right: 24px;
+  }
 }
 
 @media (min-width: 56.25em) {
@@ -2034,9 +2042,9 @@ table {
 }
 
 .c-title {
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  line-height: 1.3;
   color: #23988D;
   margin-bottom: 12px;
   font-family: "Noto Serif", serif;
@@ -2056,7 +2064,7 @@ table {
   .c-title {
     font-size: 36px;
     font-size: 2.25rem;
-    line-height: 1.5;
+    line-height: 1.3;
   }
 }
 
@@ -2519,15 +2527,27 @@ table {
 }
 
 .has-nav .c-btn--ghost.c-btn--secondary {
-  color: #bde0dd;
+  color: #FFFFFF;
 }
 
 .has-nav .c-btn--ghost.c-btn--secondary, .has-nav .c-btn--ghost.c-btn--secondary:visited {
-  color: #bde0dd;
+  color: #FFFFFF;
 }
 
 .has-nav .c-btn--ghost.c-btn--secondary:hover, .has-nav .c-btn--ghost.c-btn--secondary:focus {
   color: #d3eae8;
+}
+
+@media (min-width: 56.25em) {
+  .has-nav .c-btn--ghost.c-btn--secondary {
+    color: #23988D;
+  }
+  .has-nav .c-btn--ghost.c-btn--secondary, .has-nav .c-btn--ghost.c-btn--secondary:visited {
+    color: #23988D;
+  }
+  .has-nav .c-btn--ghost.c-btn--secondary:hover, .has-nav .c-btn--ghost.c-btn--secondary:focus {
+    color: #4fada4;
+  }
 }
 
 /* Button groups
@@ -2620,7 +2640,7 @@ table {
 }
 
 .c-link--nav, .c-link--nav:visited {
-  color: #bde0dd;
+  color: #FFFFFF;
 }
 
 .c-link--nav:hover, .c-link--nav:focus {

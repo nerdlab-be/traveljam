@@ -20,19 +20,18 @@
     margin-bottom: 0;
     padding-top: $unit-tiny/4;
   }
-
-
 }
 
 .c-logo {
   display: block;
   width: calc(196px / 2);
   height: calc(122px / 2);
-  margin-top: -$unit-small;
+  margin-top: -$unit-tiny * 1.2;
 
   @include mq(small) {
     width: calc(196px / 1.5);
     height: calc(122px / 1.5);
+    margin-top: -$unit-small;
   }
 
   @include mq(medium) {
