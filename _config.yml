@@ -28,12 +28,12 @@ navigation:
 navigation-cta:
   - title: Register
     url: "register/"
-
 social:
-  twitter_username: nerdlab9000
-  instagram_username: nerdlab9000
+  twitter_username: traveljam_be
+  instagram_username: traveljam_be
+  facebook_link: https://www.facebook.com/events/381917469256458/
 legal:
-  year: '2018'
+  year: '2019'
   company: 'Nerdlab vzw'
   email: 'info@nerdlab.be'
   address: 'Maïsstraat 181'
@@ -41,7 +41,7 @@ legal:
   phone: '+32 486 22 72 02'
   btw: 'BE 0562.981.862'
 labels:
-  legal: Kleine lettertjes
+  legal: Fineprint
 collections:
   pages:
     title: Pages

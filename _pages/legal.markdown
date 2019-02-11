@@ -1,10 +1,10 @@
 ---
-title: Kleine letterjes
+title: Fineprint
 layout: template-legal
-permalink: "/kleine-lettertjes/"
+permalink: "/fineprint/"
 ---
 
-# Kleine Lettertjes
+# Fineprint
 
 ## Analytics
 Op deze website is Google Analytics geïmplementeerd, we bekijken er hoe vaak en wanneer deze website wordt bezocht. We tracken niemand individueel en volgen je niet verder dan deze website. Google zelf gebruikt die info wel om over alle websites heen patronen te spotten.

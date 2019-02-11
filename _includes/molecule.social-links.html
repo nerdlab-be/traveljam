@@ -42,4 +42,12 @@
      </a>
   </li>
   {% endif %}
+  {% if site.social.facebook_link %}
+  <li class="c-list-inline__item">
+    <a href="{{ site.social.facebook_link }}" class="c-link c-link--bare c-link--footer" target="_blank">
+      {% include atom.icon.html value="facebook" %}
+      Facebook
+     </a>
+  </li>
+  {% endif %}
 </ul>

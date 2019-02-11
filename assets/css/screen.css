@@ -948,11 +948,20 @@ table {
 }
 
 .o-layout--large {
-  margin: -48px;
+  margin: -24px;
 }
 
 .o-layout--large > .o-layout__item {
-  padding: 48px;
+  padding: 24px;
+}
+
+@media (min-width: 56.25em) {
+  .o-layout--large {
+    margin: -48px;
+  }
+  .o-layout--large > .o-layout__item {
+    padding: 48px;
+  }
 }
 
 .o-layout--huge {
