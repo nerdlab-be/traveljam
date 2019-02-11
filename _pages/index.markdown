@@ -79,7 +79,7 @@ venue:
   para-one: "The beacon, a new and hip innovation hub in the Center of Antwerp. With view on the MAS. You will be surrounded with people collaborating on the future of our cities. The beacon is a 7 minute walk from the main market. Rest assured, there are plenty of tourists to interview if needed."
   para-two: "The beacon is localized in Tolhuis, Sint-Pietersvliet 7, 2000 Antwerpen. Easily accessible by car, bike and public transport."
 coaches:
-  title: "The 10 Coaches"
+  title: "The Coaches"
 subscribe:
   title: "Sign up for Traveljam"
   para: "On April 26th 2019 at The Beacon in Antwerp"
