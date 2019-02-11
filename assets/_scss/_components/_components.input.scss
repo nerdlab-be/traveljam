@@ -52,10 +52,10 @@
 .c-checkbox,
 .c-radio {
   position: relative;
-  top: .5ex;
+  top: 0ex;
   width: $unit;
   display: block;
-  padding-right: $unit;
+  margin-right: $unit-tiny;
 }
 
 .c-input--sm {

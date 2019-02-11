@@ -19,27 +19,123 @@ layout: default
   </div>
 </div>
 
-<div id="opdracht" class="o-row-large s-theme-secondary">
+<div class="o-row-large s-theme-secondary">
   <div class="o-wrapper o-wrapper--large">
-    <div class="o-layout u-margin-bottom">
-      <div class="o-layout__item u-2/3@medium">
+    <div class="o-layout o-layout--flush">
+      <div class="o-layout__item u-2/3@medium u-push-1/6@medium u-text-center">
         <h2 class="c-title">{{ page.opdracht.title }}</h2>
+        <p class="c-lead u-margin-bottom-small">
+          {{ page.opdracht.para-one }}
+        </p>
+        <p class="c-lead u-margin-bottom-small">
+          {{ page.opdracht.para-two }}
+        </p>
         <p class="c-lead u-margin-bottom-none">
-          {{ page.opdracht.para }}
+          {{ page.opdracht.para-three }}
         </p>
       </div>
     </div>
-    <div class="o-layout o-layout--small">
-      <div class="o-layout__item u-2/3@medium u-push-1/3@medium">
-        <h3 class="c-subtitle">{{ page.opdracht.subtitle }}</h3>
+  </div>
+</div>
+
+<div id="opdracht" class="o-row-large s-theme-white">
+  <div class="o-wrapper o-wrapper--large">
+    <div class="o-layout o-layout--large">
+      <div class="o-layout__item u-1/2@medium">
+        <h3 class="c-subtitle">{{ page.opdracht.subtitle-one }}</h3>
         <p class="c-para u-margin-bottom-none">
-          {{ page.opdracht.subpara }}
+          {{ page.opdracht.subpara-one }}
         </p>
-        {%- comment -%} <ul class="o-list-bare c-list u-margin-bottom">
-          {% for item in page.opdracht.list %}
-          <li class="c-list__item">{% include atom.icon.html value="check" %} {{ item.para }}</li>
+      </div>
+      <div class="o-layout__item u-1/2@medium">
+        <h3 class="c-subtitle">{{ page.opdracht.subtitle-two }}</h3>
+        <p class="c-para u-margin-bottom-none">
+          {{ page.opdracht.subpara-two }}
+        </p>
+      </div>
+      <div class="o-layout__item u-1/2@medium">
+        <h3 class="c-subtitle">{{ page.opdracht.subtitle-three }}</h3>
+        <p class="c-para u-margin-bottom">
+          {{ page.opdracht.subpara-three }}
+        </p>
+        <ul class="o-list-bare c-list u-margin-bottom-none">
+          {% for item in page.opdracht.list-one %}
+          <li class="c-list__item">{{ item.para }}</li>
           {% endfor %}
-        </ul> {%- endcomment -%}
+        </ul>
+      </div>
+      <div class="o-layout__item u-1/2@medium">
+        <h3 class="c-subtitle">{{ page.opdracht.subtitle-four }}</h3>
+        <p class="c-para u-margin-bottom">
+          {{ page.opdracht.subpara-four }}
+        </p>
+        <ul class="o-list-bare c-list u-margin-bottom-none">
+          {% for item in page.opdracht.list-two %}
+          <li class="c-list__item">{{ item.para }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="reward" class="o-row-large s-theme-primary-dark">
+  <div class="o-wrapper o-wrapper--large">
+    <div class="o-layout o-layout--flush u-text-center">
+      <div class="o-layout__item u-2/3@medium u-push-1/6@medium">
+        <h3 class="c-title">{{ page.opdracht.subtitle-five }}</h3>
+        <ul class="o-list-bare c-list c-list--large u-margin-bottom">
+          {% for item in page.opdracht.list-three %}
+          <li class="c-list__item">{{ item.para }}</li>
+          {% endfor %}
+        </ul>
+        <p class="c-lead u-margin-bottom-none">
+          {{ page.opdracht.subpara-five }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="programma" class="o-row-large s-theme-white">
+  <div class="o-wrapper o-wrapper--large">
+    <h2 class="c-title u-margin-bottom u-margin-bottom-large@medium u-text-center">{{ page.program.title }}</h2>
+    <div class="o-layout o-layout--small">
+      <div class="o-layout__item">
+        <article class="c-card c-card--neutral">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border"><span class="c-date">{{ page.program.dataDate }}:</span> {{ page.program.dataTitle }}</h3>
+            <p class="c-para">{{ page.program.dataPara }}</p>
+          </div>
+        </article>
+      </div>
+      <div class="o-layout__item">
+        <article class="c-card">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border"><span class="c-date">{{ page.program.fridayDate }}:</span> {{ page.program.friday }}</h3>
+            <ul class="o-list-bare c-list-agenda">
+              {% for item in page.program.scheduleFriday %}
+              <li class="c-list-agenda__item"><strong class="c-badge">{{ item.hour }}</strong> {{ item.para }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="venue" class="o-row-large s-theme-primary-dark">
+  <div class="o-wrapper o-wrapper--large">
+    <div class="o-layout o-layout--flush u-text-center">
+      <div class="o-layout__item u-2/3@medium u-push-1/6@medium">
+      <h2 class="c-title">{{ page.venue.title }}</h2>
+      <p class="c-lead u-margin-bottom-large">
+        {{ page.venue.para-one }}
+      </p>
+      <p class="c-para u-margin-bottom-none">
+        {{ page.venue.para-two }}
+      </p>
       </div>
     </div>
   </div>
@@ -53,34 +149,6 @@ layout: default
     </div>
   </div>
   {% endfor %}
-</div>
-
-<div id="programma" class="o-row-large s-theme-white">
-  <div class="o-wrapper o-wrapper--large">
-    <h2 class="c-title u-margin-bottom u-margin-bottom-large@medium u-text-center">{{ page.program.title }}</h2>
-    <div class="o-layout o-layout--small">
-      <div class="o-layout__item">
-        <article class="c-card c-card--neutral">
-          <div class="o-box">
-            <h3 class="c-subtitle c-subtitle--border">{{ page.program.dataTitle }} – <span class="c-date">{{ page.program.dataDate }}</span></h3>
-            <p class="c-para">{{ page.program.dataPara }}</p>
-          </div>
-        </article>
-      </div>
-      <div class="o-layout__item">
-        <article class="c-card">
-          <div class="o-box">
-            <h3 class="c-subtitle c-subtitle--border">{{ page.program.friday }} – <span class="c-date">{{ page.program.fridayDate }}</span></h3>
-            <ul class="o-list-bare c-list-agenda">
-              {% for item in page.program.scheduleFriday %}
-              <li class="c-list-agenda__item"><strong class="c-badge">{{ item.hour }}</strong> {{ item.para }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
 </div>
 
 <div id="coaches" class="o-row-large s-theme-primary-xlight">
@@ -99,15 +167,18 @@ layout: default
   </div>
 </div>
 
-<div id="inschrijven" class="o-row-large s-theme-primary-dark">
+<div id="inschrijven" class="o-row-large s-theme-secondary">
   <div class="o-wrapper">
     <div class="o-box u-text-center">
       <h2 class="c-title">{{ page.subscribe.title }}</h2>
-      <p class="c-lead">
+      <p class="c-lead u-margin-bottom-small">
         {{ page.subscribe.para }}
       </p>
-      <p>
-        <a href="{{ page.subscribe.linkHref }}" class="c-btn c-btn--secondary c-btn--large">{{ page.subscribe.link }} {% include atom.icon.html value="arrow" %}</a>
+      <p class="c-para u-margin-bottom-large">
+        {{ page.subscribe.subpara }}
+      </p>
+      <p class="u-margin-bottom-none">
+        <a href="{{ page.subscribe.linkHref }}" class="c-btn c-btn--large c-btn--primary c-btn--large">{{ page.subscribe.link }} {% include atom.icon.html value="arrow" %}</a>
       </p>
     </div>
   </div>

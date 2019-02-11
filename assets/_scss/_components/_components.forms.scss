@@ -2,6 +2,17 @@
    #FORMS
    ================================== */
 
+
+.c-fieldset {
+  margin-bottom: 0;
+
+  & + & {
+    margin-top: $unit;
+    padding-top: $unit;
+    border-top: 1px solid tint($color-neutral-dark,80);
+  }
+}
+
 .c-field {
   position: relative;
 
@@ -14,6 +25,10 @@
 .c-field--radio {
   display: flex;
   flex-wrap: wrap;
+
+   & + & {
+     margin-top: $unit-tiny;
+   }
 }
 
 .c-legend {

@@ -16,7 +16,7 @@ exclude:
 timezone: UTC
 author: Nerdlab
 title: "Traveljam"
-description: "Plan the most personal citytrip of 2050. 26th April 2019: 9 to 22h, The Beacon Antwerp"
+description: "Plan the most personal citytrip of 2050. 26th April 2019: 9h to 22h, The Beacon Antwerp"
 url: "https://traveljam.be"
 navigation:
   - title: Assignment

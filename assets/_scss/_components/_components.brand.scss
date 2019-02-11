@@ -2,11 +2,6 @@
    #BRAND
    ================================== */
 
-// Set global font style @TODO: should this be in elements.page?
-.c-brand {
-  font-family: $font-secondary;
-}
-
 // Logo
 .c-brand-mark {
   &,
@@ -47,4 +42,19 @@
   max-width: 150px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.c-baseline {
+  background-color: $color-neutral-xxlight;
+  color: tint($color-neutral,30);
+  text-align: center;
+  @include font-size($tiny,1.2);
+  padding-top: $unit-small;
+  padding-bottom: $unit-small;
+  padding-left: $unit;
+  padding-right: $unit;
+
+  @include mq(medium) {
+    @include font-size($small,1.2);
+  }
 }

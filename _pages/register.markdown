@@ -1,7 +1,8 @@
 ---
-title: Register
+title: Sign up for Traveljam
 layout: template-signup
 permalink: "/register/"
-para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​"
+para: "On April 26th 2019 at The Beacon in Antwerp"
+subpara: "Sidenote: If you are a tourism professional, we're sorry but you won't be able to participate. You already know too much."
 ---
 
