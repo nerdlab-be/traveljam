@@ -6,3 +6,10 @@
 .u-text-center {
   text-align: center;
 }
+
+
+.u-text-center\@medium {
+  @include mq(medium) {
+    text-align: center;
+  }
+}

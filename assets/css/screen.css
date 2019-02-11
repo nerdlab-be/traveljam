@@ -9041,6 +9041,12 @@ table {
   text-align: center;
 }
 
+@media (min-width: 56.25em) {
+  .u-text-center\@medium {
+    text-align: center;
+  }
+}
+
 /* ==================================
    #SHAME
    ================================== */
