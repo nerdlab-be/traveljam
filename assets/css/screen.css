@@ -2661,19 +2661,34 @@ table {
   outline: 4px solid #E4F0EF;
 }
 
-.s-theme-primary-dark .c-link, .s-theme-primary-dark .c-link:visited, .s-theme-primary-dark
+.s-theme-primary-dark .c-link, .s-theme-primary-dark .c-link:visited,
+.s-theme-secondary .c-link,
+.s-theme-secondary .c-link:visited, .s-theme-primary-dark
 .c-para > a, .s-theme-primary-dark
+.c-para > a:visited,
+.s-theme-secondary
+.c-para > a,
+.s-theme-secondary
 .c-para > a:visited {
-  color: #bde0dd;
+  color: #FFFFFF;
 }
 
-.s-theme-primary-dark .c-link:hover, .s-theme-primary-dark .c-link:focus, .s-theme-primary-dark
+.s-theme-primary-dark .c-link:hover, .s-theme-primary-dark .c-link:focus,
+.s-theme-secondary .c-link:hover,
+.s-theme-secondary .c-link:focus, .s-theme-primary-dark
 .c-para > a:hover, .s-theme-primary-dark
+.c-para > a:focus,
+.s-theme-secondary
+.c-para > a:hover,
+.s-theme-secondary
 .c-para > a:focus {
-  color: #bde0dd;
+  color: #E4F0EF;
 }
 
-.s-theme-primary-dark .c-link:focus, .s-theme-primary-dark
+.s-theme-primary-dark .c-link:focus,
+.s-theme-secondary .c-link:focus, .s-theme-primary-dark
+.c-para > a:focus,
+.s-theme-secondary
 .c-para > a:focus {
   outline: 4px solid #E4F0EF;
 }

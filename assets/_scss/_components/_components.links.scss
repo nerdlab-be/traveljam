@@ -20,15 +20,16 @@
     outline: 4px solid $color-primary-xlight;
   }
 
-  .s-theme-primary-dark & {
+  .s-theme-primary-dark &,
+  .s-theme-secondary & {
     &,
     &:visited {
-      color: $color-primary-light;
+      color: $white;
     }
 
     &:hover,
     &:focus {
-      color: $color-primary-light;
+      color: $color-primary-xlight;
     }
 
     &:focus {
