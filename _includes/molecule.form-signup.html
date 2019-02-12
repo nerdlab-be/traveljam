@@ -1,10 +1,10 @@
 
 {%- comment -%} <form accept-charset="UTF-8" action="https://formkeep.com/f/4debb9138210" method="POST"> {%- endcomment -%}
 <form name="contact" method="POST" data-netlify="true" action="/register/thank-you/">
-  <fieldset class="c-fieldset">
+  <div class="c-fieldset">
     <h2 class="c-subtitle">Let's start with the basics</h2>
     <p class="c-field u-hidden">
-      <label class="c-label">Don’t fill this out if you're human: <input name="bot-field" class="c-input" /></label>
+      <label class="c-label" for="bot-field">Don’t fill this out if you're human: <input name="bot-field" class="c-input" /></label>
     </p>
     <p class="c-field">
       <label for="firstname" class="c-label">What’s your first name?</label>
@@ -39,8 +39,8 @@
       <label for="reason" class="c-label">What excites you about Traveljam?</label>
       <textarea name="reason" id="reason" cols="30" rows="3" class="c-textarea" required></textarea>
     </p>
-  </fieldset>
-  <fieldset class="c-fieldset">
+  </div>
+  <div class="c-fieldset">
     <h2 class="c-subtitle">Now, let’s dig a little deeper.</h2>
     <div class="c-field">
       <label for="company" class="c-label">Who do you mostly travel with?</label>
@@ -106,7 +106,7 @@
       <label for="comment" class="c-label">Anything else we should know? (E.g.: food allergies, …) <span class="c-badge">Optional</span></label>
       <textarea name="comment" id="comment" cols="30" rows="3" class="c-textarea"></textarea>
     </p>
-  </fieldset>
+  </div>
   <p class="c-fieldset c-field u-margin-bottom-none u-margin-top">
     <button role="submit" class="c-btn c-btn--secondary">Sign up</button>
   </p>
