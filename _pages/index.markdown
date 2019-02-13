@@ -18,7 +18,7 @@ opdracht:
   subtitle-one: "The scene:"
   subpara-one: "In 2050 life will be different. The climate matter will have been settled and we will have cured dreadful diseases. Yet, the way we consume information will never stop evolving. How will we hunt for leisure activities in a foreign city?"
   subtitle-two: "Your profile:"
-  subpara-two: "Are you a frequent traveller? Business, budget or backpack? We need you. Help us shape the experience of city trips in 2050."
+  subpara-two: "Are you a frequent traveller? Business, budget or backpack? <br /> We need you. Help us shape the experience of city trips in 2050."
   subtitle-three: "Your assignment:"
   subpara-three: "Hack the future. How will future city trippers of Flanders and Brussels gather and consume tourist information? Think big and bold. Think different within one of the following playing fields:"
   list-one:
