@@ -7,11 +7,10 @@ permalink: "/fineprint/"
 # Fineprint
 
 ## Analytics
-Op deze website is Google Analytics geïmplementeerd, we bekijken er hoe vaak en wanneer deze website wordt bezocht. We tracken niemand individueel en volgen je niet verder dan deze website. Google zelf gebruikt die info wel om over alle websites heen patronen te spotten.
+On this website Google Analytics is implemented, we look at how often and when this website is visited. We do not track anyone individually and follow you no further than this website. Google itself uses this information to spot patterns across all websites.
 
-## Opgeslagen gegevens
-Als je wil inschrijven vragen we een aantal gegevens van jou en van jouw team. Deze gebruiken we enkel om Cityhacks te organiseren. We sturen je een aantal (minder dan 5) e-mails ter voorbereiding en net na Cityhacks. Hierin zal vooral praktische informatie staan over het evenement.
-We gebruiken je mailadres om jullie uit te nodigen voor Slack,
+## Saved data
+If you want to register, we ask for a number of details from you. We only use these to organize Traveljam. We will send you a number of (less than 5) e-mails in preparation and just after Traveljam. This will mainly contain practical information about the event. We use your email address to invite you to Slack.
 
-## Verantwoordelijke
-Cityhacks is een organisatie van Stad Brugge - Dienst economie. Met vragen of opmerkingen kan je terecht bij Cindy via [Cindy.vanhove@brugge.be](mailto:Cindy.vanhove@brugge.be)
+## Contact
+Traveljam is an organization of Kunsteden Vlaanderen vzw. With questions or comments you can contact Klaar via [Klaar.VanHoeymissen@leuven.be](mailto:Klaar.VanHoeymissen@leuven.be)
