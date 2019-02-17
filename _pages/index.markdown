@@ -20,7 +20,7 @@ opdracht:
   subtitle-two: "Your profile:"
   subpara-two: "Are you a frequent traveller? Business, budget or backpack? A student or a designer?<br /> We need you. Help us shape the experience of city trips in 2050."
   subtitle-three: "Your assignment:"
-  subpara-three: "Hack the future. How will future city trippers of Flanders and Brussels gather and consume tourist information? Think big and bold. But first, choose one of our six possibe realities:"
+  subpara-three: "Hack the future. How will future city trippers of Flanders and Brussels gather and consume tourist information? Think big and bold. Your only  first, choose one of these possible futures:"
   list-one:
     - para: "There are no physical tourist offices"
     - para: "Paper is completely shunned"
@@ -46,9 +46,9 @@ opdracht:
       alt: "Traveljam 2019"
   subtitle-five: "The reward:"
   list-three:
-    - para: "<strong>Gold Prize:</strong> A voucher for a 2-person overnight stay in the city with breakfast for every team member."
-    - para: "<strong>Silver Prize:</strong> Six unique activities in six different cities, combined with a fine lunch. Pick one!"
-    - para: "<strong>Bronze Prize:</strong> Six baskets full of local food and drinks from the participating cities."
+    - para: "<strong>Gold prize:</strong> A voucher for a 2-person overnight stay in the city with breakfast for every team member."
+    - para: "<strong>Silver prize:</strong> Six unique activities in six different cities, combined with a fine lunch. Pick one!"
+    - para: "<strong>Bronze prize:</strong> Six baskets full of local food and drinks from the participating cities."
   subpara-five: "Let’s not forget. You gain the incredible experience of meeting new people, that share the same passion. Travelling and dreaming of a better future."
 program:
   title: "Schedule"
@@ -76,14 +76,14 @@ program:
       para: "Prizes and champagne showers."
 venue:
   title: "The venue"
-  para-one: "The beacon, a new and hip innovation hub in the Center of Antwerp. With view on the MAS. You will be surrounded with people collaborating on the future of our cities. The beacon is a 7 minute walk from the main market. Rest assured, there are plenty of tourists to interview if needed."
-  para-two: "The beacon is localized in Tolhuis, Sint-Pietersvliet 7, 2000 Antwerpen. Easily accessible by car, bike and public transport.<br> <br><a href='https://www.ondernemeninantwerpen.be/sites/default/files/documents/181025_SD_Antwerpen_Bereikbaarheidsfiches_Tolhuis.pdf' class='c-link'>Find your way to the Beacon (pdf) </a>"
+  para-one: "The beacon, a new and hip innovation hub in the Center of Antwerp. With view on the MAS. You will be surrounded by people collaborating on the future of our cities. The beacon is a 7 minute walk from the main market. Rest assured, there are plenty of tourists to interview if needed."
+  para-two: "The Beacon is localized in Tolhuis, Sint-Pietersvliet 7, 2000 Antwerpen. Easily accessible by car, bike and public transport.<br> <br><a href='https://www.ondernemeninantwerpen.be/sites/default/files/documents/181025_SD_Antwerpen_Bereikbaarheidsfiches_Tolhuis.pdf' class='c-link'>Find your way to the Beacon (pdf) </a>"
 coaches:
   title: "The Coaches"
 subscribe:
   title: "Sign up for Traveljam"
   para: "On April 26th 2019 at The Beacon in Antwerp"
-  subpara: "Sidenote: If you are a tourism professional, we're sorry but you won't be able to participate. You already know too much."
+  subpara: "Sidenote: If you are a tourism professional, we're sorry but you won't be able to participate. You already know too much :-)"
   link: "Register for free"
   linkHref: "/register/"
 ---
