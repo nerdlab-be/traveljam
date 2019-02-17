@@ -20,7 +20,7 @@ opdracht:
   subtitle-two: "Your profile:"
   subpara-two: "Are you a frequent traveller? Business, budget or backpack? A student or a designer?<br /> We need you. Help us shape the experience of city trips in 2050."
   subtitle-three: "Your assignment:"
-  subpara-three: "Hack the future. How will future city trippers of Flanders and Brussels gather and consume tourist information? Think big and bold. Your only  first, choose one of these possible futures:"
+  subpara-three: "Hack the future. How will future city trippers of Flanders and Brussels gather and consume tourist information? Think big and bold. But first, choose one of these possible futures:"
   list-one:
     - para: "There are no physical tourist offices"
     - para: "Paper is completely shunned"
