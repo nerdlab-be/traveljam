@@ -52,7 +52,7 @@ opdracht:
   subpara-five: "Let’s not forget. You gain the incredible experience of meeting new people, that share the same passion. Travelling and dreaming of a better future."
 program:
   title: "Schedule"
-  dataTitle: "Meet the team"
+  dataTitle: "The exploration"
   dataDate: "3/4"
   dataPara: "Casual get together. Meet your teammates. Pick the scenario you’re going to hack. The problem statements will be discussed. Challenges will be explained in full."
   friday: "Traveljam!"
