@@ -4,7 +4,7 @@ layout: template-index
 permalink: "/"
 #CONTENT
 hero:
-  title: "Plan the most personal citytrip of 2050"
+  title: "Plan the most personal city trip of 2050"
   date: "26th April 2019: 9h to 22h"
   location: "The Beacon, Antwerp"
   locationLink: "https://www.ondernemeninantwerpen.be/beacon"
@@ -14,11 +14,11 @@ opdracht:
   title: "Wake up. It’s 2050."
   para-one: "The world and the way we travel have changed. "
   para-two: "The future is uncertain. The further you go on, the more uncertain it will become."
-  para-three: "<strong>Join us on April 26th at the Beacon in Antwerp.</strong> You will explore the future of city trips. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short travels.<br> <br> <a href='/register' class='c-btn c-btn--primary'>Register now for free</a>"
+  para-three: "<strong>Join us on April 26th at the Beacon in Antwerp.</strong> You will explore the future of city trips. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short travel.<br> <br> <a href='/register' class='c-btn c-btn--primary'>Register now for free</a>"
   subtitle-one: "The scene:"
   subpara-one: "In 2050 life will be different. The climate matter will have been settled and we will have cured dreadful diseases. Yet, the way we gather and consume information will never stop evolving. How will we hunt for leisure activities in a foreign city?"
   subtitle-two: "Your profile:"
-  subpara-two: "Are you a frequent traveller? Business, budget or backpack? A student or a designer?<br /> We need you. Help us shaping the experience of city trip planning in 2050."
+  subpara-two: "Are you a frequent traveller? Business, budget or backpack? A student or a designer?<br /> We need you. Help us shape the experience of city trip planning in 2050."
   subtitle-three: "Your assignment:"
   subpara-three: "Hack the future. How will future city trippers of Art Cities in Flanders and Brussels gather and consume tourist information? Think big and bold. But first, choose one of these possible futures:"
   list-one:
@@ -54,7 +54,7 @@ program:
   title: "Schedule"
   dataTitle: "The exploration"
   dataDate: "3/4"
-  dataPara: "Casual get together. Meet your teammates. Pick the scenario you’re going to hack. The problem statements will be discussed. Challenges will be explained in full. <br> We start at 19:00, strickt! Food avaliable from 18:00."
+  dataPara: "Casual get together. Meet your teammates. Pick the scenario you’re going to hack. The problem statements will be discussed. Challenges will be explained in full. <br> We start at 19:00 sharp! Food available from 18:00."
   friday: "Traveljam!"
   fridayDate: "26/4"
   scheduleFriday:
