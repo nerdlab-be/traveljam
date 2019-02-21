@@ -2204,6 +2204,10 @@ table {
   }
 }
 
+.c-small--footer {
+  color: #697385;
+}
+
 .c-list {
   font-size: 16px;
   font-size: 1rem;
@@ -2691,6 +2695,18 @@ table {
 .s-theme-secondary
 .c-para > a:focus {
   outline: 4px solid #E4F0EF;
+}
+
+.c-link--neutral, .c-link--neutral:visited {
+  color: #697385;
+}
+
+.c-link--neutral:hover, .c-link--neutral:focus {
+  color: #445066;
+}
+
+.c-link--neutral:focus {
+  outline: 4px solid #c3c7ce;
 }
 
 .c-link--footer {

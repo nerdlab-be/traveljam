@@ -8,7 +8,7 @@ hero:
   date: "26th April 2019: 9h to 22h"
   location: "The Beacon, Antwerp"
   locationLink: "https://www.ondernemeninantwerpen.be/beacon"
-  image: "/assets/img/jpg/hero3.jpg"
+  image: "/assets/img/jpg/header.jpg"
   imageAlt: "Traveljam 2019"
 opdracht:
   title: "Wake up. It’s 2050."

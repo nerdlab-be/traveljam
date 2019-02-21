@@ -115,13 +115,16 @@
 
 .c-small {
   @include font-size($small,1.5);
-  // padding-top: $unit-tiny/2;
   display: block;
   color: $color-primary-dark;
 
   @include mq(medium) {
     text-align: right;
   }
+}
+
+.c-small--footer {
+  color: $color-neutral;
 }
 
 .c-list {

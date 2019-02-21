@@ -38,6 +38,22 @@
   }
 }
 
+.c-link--neutral {
+  &,
+  &:visited {
+    color: $color-neutral;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-neutral-dark;
+  }
+
+  &:focus {
+    outline: 4px solid $color-neutral-xlight;
+  }
+}
+
 .c-link--footer {
   font-weight: $light;
 
