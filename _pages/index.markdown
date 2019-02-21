@@ -20,14 +20,14 @@ opdracht:
   subtitle-two: "Your profile:"
   subpara-two: "Are you a frequent traveller? Business, budget or backpack? A student or a designer?<br /> We need you. Help us shape the experience of city trip planning in 2050."
   subtitle-three: "Your assignment:"
-  subpara-three: "Hack the future. How will future city trippers of Art Cities in Flanders and Brussels gather and consume tourist information? Think big and bold. But first, choose one of these possible futures:"
+  subpara-three: "Hack the future. How will future city trippers of Art Cities in Flanders and Brussels gather and consume visitor information? Think big and bold. But first, choose one of these possible futures:"
   list-one:
     - para: "There are no physical tourist offices"
     - para: "No one uses paper anymore"
     - para: "People travel as a digital detox, refusing to use digital devices on holidays"
-    - para: "Online sources are unreliable on the subject of tourist information"
+    - para: "Online sources are unreliable on the subject of visitor information"
     - para: "The government has no say"
-    - para: "There are no official sources for tourist information"
+    - para: "There are no official sources for vistior information"
   subtitle-four: "The crew:"
   subpara-four: "You’re not alone. We’ll give you:"
   list-two:
