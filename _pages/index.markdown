@@ -77,7 +77,7 @@ program:
 venue:
   title: "The venue"
   para-one: "The Beacon, a new and hip innovation hub in the Center of Antwerp. With view of the MAS. You will be surrounded by people collaborating on the future of our cities. The Beacon is 7 minutes walking from the Great Market Place. Rest assured, there are plenty of tourists to interview if needed."
-  para-two: "The Beacon is localized in Tolhuis, Sint-Pietersvliet 7, 2000 Antwerpen. Easily accessible by car, bike and public transport.<br> <br><a href='https://www.ondernemeninantwerpen.be/sites/default/files/documents/181025_SD_Antwerpen_Bereikbaarheidsfiches_Tolhuis.pdf' class='c-link'>Find your way to The Beacon (pdf) </a>"
+  para-two: "The Beacon is localized in Tolhuis, Sint-Pietersvliet 7, 2000 Antwerpen. Easily accessible by car, bike and public transport.<br> <br><a href='https://www.ondernemeninantwerpen.be/sites/default/files/documents/181025_SD_Antwerpen_Bereikbaarheidsfiches_Tolhuis.pdf' class='c-link'>Find your way to The Beacon (Dutch - pdf)</a> or on <a href='https://www.google.be/maps/place/The+Beacon/@51.2254032,4.3988424,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f6591c88f09d:0x31d6c38718baba03!8m2!3d51.2254032!4d4.4010311?hl=nl' class='c-link'>Google Maps</a>"
 coaches:
   title: "The Coaches"
 subscribe:
