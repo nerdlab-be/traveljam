@@ -23,7 +23,7 @@ opdracht:
   subpara-three: "Hack the future. How will future city trippers of Art Cities in Flanders and Brussels gather and consume tourist information? Think big and bold. But first, choose one of these possible futures:"
   list-one:
     - para: "There are no physical tourist offices"
-    - para: "Paper is completely shunned"
+    - para: "No one uses paper anymore"
     - para: "People travel as a digital detox, refusing to use digital devices on holidays"
     - para: "Online sources are unreliable on the subject of tourist information"
     - para: "The government has no say"
