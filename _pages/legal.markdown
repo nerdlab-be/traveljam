@@ -17,4 +17,4 @@ All TravelJam outcomes fall under Creative Commons: [Attribution 4.0 Internation
 If you want to register, we ask for a number of details from you. We only use these to organize Traveljam. We will send you a number of (less than 5) e-mails in preparation and just after Traveljam. This will mainly contain practical information about the event. We use your email address to invite you to Slack. We'll use Slack for all communication before and during the event.
 
 ## Contact
-Traveljam is an organization of Kunststeden Vlaanderen vzw  & Visit Brussels. With questions or comments you can contact Klaar via [Klaar.VanHoeymissen@leuven.be](mailto:Klaar.VanHoeymissen@leuven.be)
+Traveljam is an organization of Kunststeden Vlaanderen vzw  & visit.brussels. With questions or comments you can contact Klaar via [Klaar.VanHoeymissen@leuven.be](mailto:Klaar.VanHoeymissen@leuven.be)
