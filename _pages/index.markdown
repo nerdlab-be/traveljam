@@ -82,7 +82,7 @@ coaches:
   title: "The Coaches"
 subscribe:
   title: "Sign up for Traveljam"
-  para: "On April 26th 2019 at The Beacon in Antwerp"
+  para: "Registrations end on 20 March, so hurry up!"
   subpara: "Sidenote: If you are a tourism professional, we're sorry but you won't be able to participate. You already know too much :-)"
   link: "Register for free"
   linkHref: "/register/"
