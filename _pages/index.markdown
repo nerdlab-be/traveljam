@@ -5,7 +5,7 @@ permalink: "/"
 #CONTENT
 hero:
   title: "Plan the most personal city trip of 2050"
-  date: "26th April 2019: 9h to 22h"
+  date: "Friday 26th April 2019: 9h to 22h"
   location: "The Beacon, Antwerp"
   locationLink: "https://www.ondernemeninantwerpen.be/beacon"
   image: "/assets/img/jpg/header.jpg"
@@ -14,7 +14,7 @@ opdracht:
   title: "Wake up! It’s 2050."
   para-one: "The world and the way we travel have changed. "
   para-two: "The future is uncertain. As time progresses, the more uncertain it will become."
-  para-three: "<strong>Join us on April 26th at The Beacon in Antwerp.</strong> You will explore the future of city breaks. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short breaks.<br> <br> <a href='/register' class='c-btn c-btn--primary'>Register now for free</a> <br> <small>Sorry, no tourism professionals, you  know too much :-)</small>"
+  para-three: "<strong>Join us on Friday April 26th at The Beacon in Antwerp.</strong> You will explore the future of city breaks. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short breaks.<br> <br> <a href='/register' class='c-btn c-btn--primary'>Register now for free</a> <br> <small>Sorry, no tourism professionals, you  know too much :-)</small>"
   subtitle-one: "The scene:"
   subpara-one: "In 2050 life will be different. The climate matter will have been settled and we will have cured dreadful diseases. And yet, the way we gather and consume information will never stop evolving. How will we hunt for leisure activities in a foreign city?"
   subtitle-two: "Your profile:"
@@ -53,10 +53,10 @@ opdracht:
 program:
   title: "Schedule"
   dataTitle: "The exploration"
-  dataDate: "3/4"
+  dataDate: "Wednesday 3/4"
   dataPara: "Casual get together. Meet your teammates. Pick the scenario you’re going to hack. The problem statements will be discussed. Challenges will be explained in full. <br> We start at 19:00 sharp! Food available from 18:00."
   friday: "Traveljam!"
-  fridayDate: "26/4"
+  fridayDate: "Friday 26/4"
   scheduleFriday:
     - hour: "9:00"
       para: "Welcome with coffee, ready to hack the future."
