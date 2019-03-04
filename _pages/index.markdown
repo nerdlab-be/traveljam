@@ -33,7 +33,7 @@ opdracht:
   list-two:
     - para: "The best coaches you can find"
     - para: "Food and drinks"
-    - para: "Comfy seating and (terrible) wifi"
+    - para: "Comfy seating and heart-warming wifi"
     - para: "A bunch of nerds to help you prototype"
     - para: "Tourism professionals to talk to"
     - para: "Free Netflix for one day"
