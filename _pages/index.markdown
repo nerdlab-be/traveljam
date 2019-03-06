@@ -69,7 +69,7 @@ program:
     - hour: "15:00-18:00"
       para: "Visualise your ideas."
     - hour: "19:00"
-      para: "Formal pitches!"
+      para: "Formal pitches! at <a href='http://urbancity.be/'>UrbanCity</a>"
     - hour: "21:00"
       para: "Surprise act during jury deliberation (you don’t want to miss this!)"
     - hour: "22:00"
