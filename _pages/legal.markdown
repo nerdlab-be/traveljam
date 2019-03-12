@@ -2,6 +2,7 @@
 title: Fineprint
 layout: template-legal
 permalink: "/fineprint/"
+metaTitle: "Fineprint"
 ---
 
 # Fineprint

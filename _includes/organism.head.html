@@ -9,8 +9,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  {% if page.metaTitle %}
+  <title>{{ page.metaTitle }} | Friday April 26 at The Beacon (Antwerp)</title>
+  {% else %}
   <title>Traveljam Hackathon | Friday April 26 at The Beacon (Antwerp)</title>
+  {% endif %}
+  {% if page.metaDescription %}
+  <meta name="description" content="{{ page.metaDescription }}">
+  {% else %}
   <meta name="description" content="Are you a frequent traveller, student or designer? Join our hackahon on Friday April 26. Help us shape the most personal citytrip of 2050. Register now for free!">
+  {% endif %}
 
   {% comment %}
   Stylesheets
@@ -22,30 +30,47 @@
   {% endcomment %}
   <link rel="canonical" href="{{ page.url | replace:'index.html',''| prepend: site.url }}">
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WSD9G8P');</script>
-<!-- End Google Tag Manager -->
+  {% comment %} Google Tag Manager {% endcomment %}
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WSD9G8P');</script>
+  {% comment %} End Google Tag Manager {% endcomment %}
 
   {% comment %}
   Facebook OG meta tags (https://developers.facebook.com/docs/sharing/best-practices#tags)
   {% endcomment %}
   <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ '/assets/img/jpg/og-image.jpg' | prepend: site.url }}{% endif %}">
+  {% if page.metaTitle %}
+  <meta property="og:title" content="{{ page.metaTitle}} | April 26 at The Beacon (Antwerp)">
+  {% else %}
   <meta property="og:title" content="Traveljam Hackathon | April 26 at The Beacon (Antwerp)">
+  {% endif %}
   <meta property="og:url" content="{{ page.url | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title | escape }}">
+  {% if page.metaDescription %}
+  <meta property="og:description" content="{{ page.metaDescription }}">
+  {% else %}
   <meta property="og:description" content="Are you a frequent traveller, student or designer? Join our hackahon on Friday April 26. Help us shape the most personal citytrip of 2050. Register now for free!">
+  {% endif %}
 
   {% comment %}
   Twitter card meta tags (https://dev.twitter.com/cards/types/summary)
   {% endcomment %}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{ site.social.twitter_username | remove: '@' }}" />
+  {% if page.metaTitle %}
+  <meta name="twitter:title" content="{{ page.metaTitle }} | April 26 at The Beacon (Antwerp)" />
+  {% else %}
   <meta name="twitter:title" content="Traveljam Hackathon | April 26 at The Beacon (Antwerp)" />
+  {% endif %}
+  {% if page.metaDescription %}
+  <meta name="twitter:description" content="{{ page.metaDescription }}" />
+  {% else %}
   <meta name="twitter:description" content="Are you a frequent traveller, student or designer? Join our hackahon on Friday April 26. Help us shape the most personal citytrip of 2050. Register now for free!" />
+  {% else %}
+  {% endif %}
   <meta name="twitter:url" content="{{ page.url | prepend: site.url }}" />
   <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ '/assets/img/jpg/twitter-image.jpg' | prepend: site.url }}{% endif %}" />
   <meta name="twitter:image:alt" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
