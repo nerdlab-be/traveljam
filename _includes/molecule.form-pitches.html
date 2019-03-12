@@ -1,0 +1,23 @@
+<form name="pitches" method="POST" data-netlify="true" action="/pitches/thank-you/">
+  <p class="c-field">
+    <label for="firstname" class="c-label">What’s your first name?</label>
+    <input type="text" name="firstname" id="firstname" class="c-input" required>
+  </p>
+  <p class="c-field">
+    <label for="name" class="c-label">What’s your last name?</label>
+    <input type="text" name="name" id="name" class="c-input" required>
+  </p>
+  <p class="c-field">
+    <label for="email" class="c-label">What’s your e-mail address?</label>
+    <input type="email" name="email" id="email" class="c-input" required>
+  </p>
+  <p class="c-field c-field--check">
+    <input type="checkbox" value="send" name="send" id="send" class="c-checkbox"><label for="send">Send me the presentations and aftermovie via e-mail</label>
+  </p>
+  <p class="u-hidden">
+    <label class="c-label" for="bot-field">Don’t fill this out if you're human: <input name="bot-field" class="c-input" /></label>
+  </p>
+  <p class="c-field u-margin-bottom-none u-margin-top">
+    <button role="submit" class="c-btn c-btn--secondary">Submit</button>
+  </p>
+</form>
