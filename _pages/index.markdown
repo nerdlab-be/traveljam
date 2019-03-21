@@ -82,7 +82,7 @@ coaches:
   title: "The coaches"
 subscribe:
   title: "Sign up for Traveljam"
-  para: "Registrations end on March 20th. Hurry up!"
+  para: "Registrations extended until March 22th. Your last chance!"
   subpara: "Sidenote: If you are a tourism professional, we're sorry but you won't be able to participate. You already know too much :-)"
   link: "Register for free"
   linkHref: "/register/"
