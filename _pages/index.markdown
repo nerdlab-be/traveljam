@@ -14,7 +14,7 @@ opdracht:
   title: "Wake up! It’s 2050."
   para-one: "The world and the way we travel have changed. "
   para-two: "The future is uncertain. As time progresses, the more uncertain it will become."
-  para-three: "<strong>Join us on Friday April 26th at The Beacon in Antwerp.</strong> You will explore the future of city breaks. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short breaks.<br> <br> <a href='/register' class='c-btn c-btn--primary'>Register now for free</a> <br> <small>Sorry, no tourism professionals, you  know too much :-)</small>"
+  para-three: "<strong>Join us on Friday April 26th at The Beacon in Antwerp.</strong> You will explore the future of city breaks. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short breaks.<br> <br> <a href='/pitches' class='c-btn c-btn--primary'>Come and watch the pitches</a> <br> <small>Still want to participate? <a href='/register'>Register on the waitinglist</a>.</small>"
   subtitle-one: "The scene:"
   subpara-one: "In 2050 life will be different. The climate matter will have been settled and we will have cured dreadful diseases. And yet, the way we gather and consume information will never stop evolving. How will we hunt for leisure activities in a foreign city?"
   subtitle-two: "Your profile:"
@@ -81,10 +81,10 @@ venue:
 coaches:
   title: "The coaches"
 subscribe:
-  title: "Sign up for Traveljam"
-  para: "Registrations extended until March 22th. Your last chance!"
-  subpara: "Sidenote: If you are a tourism professional, we're sorry but you won't be able to participate. You already know too much :-)"
-  link: "Register for free"
-  linkHref: "/register/"
+  title: "Come and see the pitches"
+  para: "At 19:00 at UrbanCity in Antwerp. Te 11 groups and Nigel Williams will give you a night to remember."
+  subpara: "Registrations for particating has ended but we have a <a href='/register'>waitinglist</a>."
+  link: "Register for the audience"
+  linkHref: "/pithces/"
 ---
 
