@@ -26,8 +26,8 @@ navigation:
   - title: Coaches
     url: "index.html#coaches"
 navigation-cta:
-  - title: Register
-    url: "register/"
+  - title: Pitches
+    url: "pitches/"
 social:
   twitter_username: traveljam_be
   instagram_username: traveljam_be
