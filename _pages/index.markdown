@@ -82,8 +82,8 @@ coaches:
   title: "The coaches"
 subscribe:
   title: "Register now!"
-  para: "Registrations for participating are back open, we have 10 spots left!"
-  subpara: "Sorry, not for Tourism professionals, you already know to much ;-)"
+  para: "Registrations for participating are back open, we have 8 spots left!"
+  subpara: "Want to see the pitches? And hear the opinion of Nigel Williams? <a href='pitches/'>Subscribe for the pitches</a>"
   link: "Sign up for free"
   linkHref: "/register/"
 ---
