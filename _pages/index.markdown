@@ -81,10 +81,10 @@ venue:
 coaches:
   title: "The coaches"
 subscribe:
-  title: "Register now!"
-  para: "Registrations for participating are back open, we have 8 spots left!"
-  subpara: "Want to see the pitches? And hear the opinion of Nigel Williams? <a href='pitches/'>Subscribe for the pitches</a>"
+  title: "Hear the pitches"
+  para: "Discover all brilliant ideas on the future of Citytrips on 26th April in UrbanCity, Antwerp at 19:00 sharp"
+  subpara: "Want to join the Jam itself? You can still subscribe <a href='register/'>for the hackathon</a>"
   link: "Sign up for free"
-  linkHref: "/register/"
+  linkHref: "/pitches/"
 ---
 
