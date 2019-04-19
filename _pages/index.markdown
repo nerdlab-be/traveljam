@@ -70,8 +70,8 @@ program:
       para: "Visualise your ideas."
     - hour: "19:00"
       para: "Formal pitches! at <a href='http://urbancity.be/'>UrbanCity</a>"
-    - hour: "21:00"
-      para: "Surprise act during jury deliberation (you don’t want to miss this!)"
+    - hour: "21:15"
+      para: "<a href='https://www.canvas.be/video/genre/educatief-spiritueel/nigel-williams-moeten-we-de-toekomst-vrezen'>Nigel Williams</a> will raise his voice during jury deliberation"
     - hour: "22:00"
       para: "Prizes and champagne showers."
 venue:
