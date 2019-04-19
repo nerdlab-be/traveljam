@@ -1,5 +1,5 @@
 ---
-title: Sign up for Traveljam - Waiting list
+title: Sign up for Traveljam
 layout: template-signup
 permalink: "/register/"
 para: "On April 26th 2019 at The Beacon in Antwerp"
