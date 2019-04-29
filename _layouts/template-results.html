@@ -11,13 +11,14 @@ layout: default
       <div class="o-box o-box--flush">
         <h1 class="c-page-title">{{ page.hero.title }}</h1>
         <ul class="o-list-bare c-list-big">
-          <li class="c-list-big__item">{% include atom.icon.html value="date" %} {{ page.hero.date }}</li>
-          <li class="c-list-big__item"><a href="{{ page.hero.locationLink }}" class="c-link c-link--faux c-link--negative" target="_blank">{% include atom.icon.html value="location" %} {{ page.hero.location}}</a></li>
+          <li class="c-list-big__item">{{ page.hero.date }}</li>
+          <li class="c-list-big__item"><a href="{{ page.hero.locationLink }}" class="c-link c-link--faux c-link--negative" target="_blank" rel="noopener">{{ page.hero.location}}</a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
+
 
 <div id="aftermovie" class="o-row-large s-theme-white">
   <div class="o-wrapper o-wrapper--large">
@@ -38,6 +39,16 @@ layout: default
       </div>
     </div>
   </div>
+</div>
+
+<div class="o-layout o-layout--flush s-theme-primary-dark">
+  {% for item in page.section.images %}
+  <div class="o-layout__item u-1/3">
+    <div class="o-crop o-crop--fit o-crop--16:9 c-image c-image--one">
+      <img src="{{ item.image }}" alt="{{ item.alt }}" class="o-crop__content o-crop__content--center">
+    </div>
+  </div>
+  {% endfor %}
 </div>
 
 <div id="presentations" class="o-row-large s-theme-primary-xlight">

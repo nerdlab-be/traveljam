@@ -13,6 +13,7 @@
     {% endfor %}
 
     <!-- Navigation CTA -->
+    {% if site.navigation-cta %}
     {% for item in site.navigation-cta %}
     <li class="c-navigation__item">
       <a href="/{{ item.url }}" alt="Contact" class="c-btn c-btn--secondary c-btn--ghost">
@@ -20,6 +21,7 @@
       </a>
     </li>
     {% endfor %}
+    {% endif %}
   </ul>
 </nav>
 

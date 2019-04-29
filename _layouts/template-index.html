@@ -179,12 +179,12 @@ layout: default
       <p class="c-lead u-margin-bottom-small">
         {{ page.subscribe.para }}
       </p>
-      <p class="c-para u-margin-bottom-large">
+      {%- comment -%} <p class="c-para u-margin-bottom-large">
         {{ page.subscribe.subpara }}
-      </p>
-      <p class="u-margin-bottom-none">
+      </p> {%- endcomment -%}
+      {%- comment -%} <p class="u-margin-bottom-none">
         <a href="{{ page.subscribe.linkHref }}" class="c-btn c-btn--large c-btn--primary c-btn--large">{{ page.subscribe.link }} {% include atom.icon.html value="arrow" %}</a>
-      </p>
+      </p> {%- endcomment -%}
     </div>
   </div>
 </div>

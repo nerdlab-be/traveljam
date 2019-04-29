@@ -14,7 +14,7 @@ opdracht:
   title: "Wake up! It’s 2050."
   para-one: "The world and the way we travel have changed. "
   para-two: "The future is uncertain. As time progresses, the more uncertain it will become."
-  para-three: "<strong>Join us on Friday April 26th at The Beacon in Antwerp.</strong> You will explore the future of city breaks. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short breaks.<br> <br> <a href='/register' class='c-btn c-btn--primary'>Register for the last spots</a> "
+  para-three: "<strong>Join us on Friday April 26th at The Beacon in Antwerp.</strong> You will explore the future of city breaks. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short breaks."
   subtitle-one: "The scene:"
   subpara-one: "In 2050 life will be different. The climate matter will have been settled and we will have cured dreadful diseases. And yet, the way we gather and consume information will never stop evolving. How will we hunt for leisure activities in a foreign city?"
   subtitle-two: "Your profile:"
