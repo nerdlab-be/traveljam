@@ -1,14 +1,51 @@
-- title: Presentatie 1
+- title: Ethical Waze
   body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
-  image: jpg/webdoos.jpg
+  image: png/1.ethicalwayz.png
   link: "https://www.nerdlab.be/"
 
-- title: Presentatie 2
+- title: Friends
   body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
-  image: jpg/webdoos.jpg
+  image: png/2.friends.png
   link: "https://www.nerdlab.be/"
 
-- title: Presentatie 3
+- title: Gulliver
   body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
-  image: jpg/webdoos.jpg
+  image: png/3.gulliver.png
   link: "https://www.nerdlab.be/"
+  
+- title: Shared Experience Economy
+  body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
+  image: png/4.sharedExperienceEconomy.png
+  link: "https://www.nerdlab.be/"
+
+- title: Crazy Compass
+  body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
+  image: png/5.CrazyCompass.png
+  link: "https://www.nerdlab.be/"
+
+- title: Leuven Authenticator
+  body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
+  image: png/6.LeuvenAuthenticator.png
+  link: "https://www.nerdlab.be/"
+  
+- title: Hilma
+  body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
+  image: png/7.Hilma.png
+  link: "https://www.nerdlab.be/"
+
+- title: Anna
+  body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
+  image: png/9.Anna.png
+  link: "https://www.nerdlab.be/"
+
+- title: Icebreaker
+  body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
+  image: png/10.Icebreaker.png
+  link: "https://www.nerdlab.be/"
+  
+- title: Jacq
+  body: ​Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nunc scelerisque, porttitor leo quis, venenatis nisl. Donec volutpat erat quis mauris ullamcorper, luctus hendrerit odio pulvinar.​
+  image: png/9.Icebreaker.png
+  link: "https://www.nerdlab.be/"
+
+
