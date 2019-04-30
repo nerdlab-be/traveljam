@@ -3410,6 +3410,20 @@ table {
   }
 }
 
+.c-hero__image--bottom > img {
+  position: absolute;
+  left: 50%;
+  top: auto;
+  bottom: 0;
+  min-width: 100%;
+  max-width: none;
+  min-height: 100%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: .3;
+}
+
 .c-hero__body {
   position: absolute;
   top: 50%;
