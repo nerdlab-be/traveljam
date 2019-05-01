@@ -25,6 +25,6 @@ section:
     - image: "/assets/img/jpg/beacon3.jpg"
       alt: "Traveljam 2019"
 presentations:
-  title: "Presentations"
+  title: "The ideas"
 ---
 
