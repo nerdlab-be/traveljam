@@ -21,23 +21,23 @@ layout: default
 
 
 <div id="aftermovie" class="o-row-large s-theme-white">
-  <div class="o-wrapper o-wrapper--large">
+  <div class="o-wrapper">
     <div class="o-layout u-margin-bottom">
-      <div class="o-layout__item u-2/3@medium">
+      <div class="o-layout__item">
         <h2 class="c-title">{{ page.intro.title }}</h2>
         <p class="c-lead u-margin-bottom-none">
           {{ page.intro.para }}
         </p>
       </div>
     </div>
-    <div class="o-layout o-layout--small">
+    {%- comment -%} <div class="o-layout o-layout--small">
       <div class="o-layout__item u-2/3@medium u-push-1/3@medium">
         <h2 class="c-subtitle">{{ page.intro.subtitle }}</h2>
         <div class="o-crop o-crop--16:9 c-video">
           <iframe src="https://www.youtube.com/embed/{{ page.intro.youtube_embed }}" class="o-ratio__content" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> {%- endcomment -%}
   </div>
 </div>
 

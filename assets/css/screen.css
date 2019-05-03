@@ -3336,10 +3336,6 @@ table {
   margin-top: 12px;
 }
 
-.c-card__body > *:last-child {
-  margin-top: auto;
-}
-
 .c-card__body > *:nth-last-child(2) {
   margin-bottom: 24px;
 }
