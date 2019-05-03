@@ -326,3 +326,29 @@
   vertical-align: middle;
   text-align: center;
 }
+
+.c-tag {
+  display: inline-block;
+  background-color: tint($color-neutral-xlight,20);
+  padding: $unit-tiny/2 $unit-tiny;
+  border-radius: $radius;
+  font-weight: $medium;
+}
+
+.c-tag--gold {
+  $gold: #a09d06;
+  color: $gold;
+  background-color: tint($gold,80);
+}
+
+.c-tag--silver {
+  $silver: #c0c0c2;
+  color: shade($silver,40);
+  background-color: tint($silver,70);
+}
+
+.c-tag--bronze {
+  $bronze: #ac8125;
+  color: shade($bronze,40);
+  background-color: tint($bronze,70);
+}

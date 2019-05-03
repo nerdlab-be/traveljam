@@ -12,7 +12,7 @@ layout: default
         <h1 class="c-page-title">{{ page.hero.title }}</h1>
         <ul class="o-list-bare c-list-big">
           <li class="c-list-big__item">{{ page.hero.date }}</li>
-          <li class="c-list-big__item"><a href="{{ page.hero.locationLink }}" class="c-link c-link--faux c-link--negative" target="_blank" rel="noopener">{{ page.hero.location}}</a></li>
+          {%- comment -%} <li class="c-list-big__item"><a href="{{ page.hero.locationLink }}" class="c-link c-link--faux c-link--negative" target="_blank" rel="noopener">{{ page.hero.location}}</a></li> {%- endcomment -%}
         </ul>
       </div>
     </div>
@@ -25,9 +25,10 @@ layout: default
     <div class="o-layout u-margin-bottom">
       <div class="o-layout__item">
         <h2 class="c-title">{{ page.intro.title }}</h2>
-        <p class="c-lead u-margin-bottom-none">
+        <p class="c-lead">
           {{ page.intro.para }}
         </p>
+        <p class="c-lead u-margin-bottom-none"><a href="{{ page.hero.locationLink }}" class="c-btn c-btn--large c-btn--secondary c-btn--large">{{ page.hero.location}} {% include atom.icon.html value="arrow" %}</a></p>
       </div>
     </div>
     {%- comment -%} <div class="o-layout o-layout--small">
@@ -44,9 +45,9 @@ layout: default
 <div class="o-layout o-layout--flush s-theme-primary-dark">
   {% for item in page.section.images %}
   <div class="o-layout__item u-1/3">
-    <div class="o-crop o-crop--fit o-crop--16:9 c-image c-image--one">
+    <a href="{{ page.hero.locationLink }}" class="o-crop o-crop--fit o-crop--16:9 c-image c-image--one c-image--link">
       <img src="{{ item.image }}" alt="{{ item.alt }}" class="o-crop__content o-crop__content--center">
-    </div>
+    </a>
   </div>
   {% endfor %}
 </div>
@@ -60,7 +61,7 @@ layout: default
       {% endcomment %}
       {% for item in site.data.presentations %}
       <li class="o-layout__item u-1/2@small u-1/3@large">
-        {% include molecule.card.html image=item.image title=item.title body=item.body footnote=item.footnote link=item.link %}
+        {% include molecule.card.html image=item.image title=item.title body=item.body footnote=item.footnote link=item.link label=item.label %}
       </li>
       {% endfor %}
     </ul>

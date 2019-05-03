@@ -17,3 +17,18 @@
     background-color: rgba($color-neutral-dark,.3);
   }
 }
+
+.c-image--link {
+  text-decoration: none;
+  transition: $transition;
+
+  &,
+  &:visited {
+
+  }
+
+  &:hover,
+  &:focus {
+    opacity: .8;
+  }
+}
