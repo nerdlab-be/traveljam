@@ -21,8 +21,6 @@ url: "https://traveljam.be"
 navigation:
   - title: Assignment
     url: "event/index.html#opdracht"
-  - title: Coaches
-    url: "event/index.html#coaches"
 navigation-cta:
   - title: The ideas
     url: "index.html#presentations"
