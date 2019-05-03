@@ -18,11 +18,11 @@ Thanks to <a href='https://vimeo.com/jeffreyroekens'>Jeffrey</a> and <a href='ht
   youtube_embed: "IXdOwR1De0Q"
 section:
   images:
-    - image: "/assets/img/jpg/traveljam-1.jpg"
+    - image: "/assets/img/jpg/traveljam-1.jpeg"
       alt: "Traveljam 2019"
-    - image: "/assets/img/jpg/traveljam-6.jpg"
+    - image: "/assets/img/jpg/traveljam-6.jpeg"
       alt: "Traveljam 2019"
-    - image: "/assets/img/jpg/traveljam-76.jpg"
+    - image: "/assets/img/jpg/traveljam-76.jpeg"
       alt: "Traveljam 2019"
 presentations:
   title: "The ideas"
