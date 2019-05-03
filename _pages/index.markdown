@@ -1,90 +1,32 @@
 ---
 title: Home
-layout: template-index
+layout: template-results
 permalink: "/"
 #CONTENT
 hero:
-  title: "Plan the most personal city trip of 2050"
-  date: "Friday 26th April 2019: 9h to 22h"
-  location: "The Beacon, Antwerp"
-  locationLink: "https://www.ondernemeninantwerpen.be/beacon"
-  image: "/assets/img/jpg/header.jpg"
+  title: "We planned the most personal citytrip of the future"
+  date: "And we had a blast!"
+  location: "See the pictures"
+  locationLink: "https://www.facebook.com/pg/traveljam.be/photos/?tab=album&album_id=1247755165398613"
+  image: "/assets/img/jpg/laugh.jpg"
   imageAlt: "Traveljam 2019"
-opdracht:
-  title: "Wake up! It’s 2050."
-  para-one: "The world and the way we travel have changed. "
-  para-two: "The future is uncertain. As time progresses, the more uncertain it will become."
-  para-three: "<strong>Join us on Friday April 26th at The Beacon in Antwerp.</strong> You will explore the future of city breaks. Not one, but six alternative futures. To understand, overturn and unravel the new way of planning short breaks."
-  subtitle-one: "The scene:"
-  subpara-one: "In 2050 life will be different. The climate matter will have been settled and we will have cured dreadful diseases. And yet, the way we gather and consume information will never stop evolving. How will we hunt for leisure activities in a foreign city?"
-  subtitle-two: "Your profile:"
-  subpara-two: "Are you a frequent traveller? Business, budget or backpacker? A student or a designer?<br /> We need your help to shape the experience of city trips in 2050."
-  subtitle-three: "Your assignment:"
-  subpara-three: "Hack the future. How will travellers to Art Cities in Flanders and Brussels gather and consume visitor information in 2050? Think big and bold. But first, imagine and choose one of these six possible futures:"
-  list-one:
-    - para: "Physical tourist offices no longer exist"
-    - para: "No one uses paper anymore"
-    - para: "People travel as a digital detox, refusing to use digital devices on holidays"
-    - para: "Online sources are unreliable when it comes to visitor information"
-    - para: "Every building is now a ‘smart’ building"
-    - para: "There are no official sources for visitor information"
-  subtitle-four: "The crew:"
-  subpara-four: "You’re not alone. We’ll give you:"
-  list-two:
-    - para: "The best coaches you can find"
-    - para: "Food and drinks"
-    - para: "Comfy seating and heart-warming wifi"
-    - para: "A bunch of nerds to help you prototype"
-    - para: "Tourism professionals to talk to"
-    - para: "Free Netflix for one day"
+intro:
+  title: "The results"
+  para: "​After ten hours of brainstorms and pitches we are very proud to present you the ten ideas that will shape the future of citytrips. Almost 60 people discussed and discovered hundred ideas, they cherry picked the best and formulated the stories you can find on this website. Do you want to feel (again) like you were there check out the beautifull photos.
+Thanks to <a href='https://vimeo.com/jeffreyroekens' class='c-link' target='_blank' rel='noopener'>Jeffrey</a> and <a href='https://www.flickr.com/photos/128428770@N03/sets/72157649147056796/' class='c-link' target='_blank' rel='noopener'>Lucas</a> for that.​"
+  subtitle: "The aftermovie"
+  youtube_embed: "IXdOwR1De0Q"
+section:
   images:
-    - image: "/assets/img/jpg/beacon1.jpg"
+    - image: "/assets/img/jpg/traveljam-1.jpeg"
       alt: "Traveljam 2019"
-    - image: "/assets/img/jpg/beacon2.jpg"
+    - image: "/assets/img/jpg/traveljam-6.jpeg"
       alt: "Traveljam 2019"
-    - image: "/assets/img/jpg/beacon3.jpg"
+    - image: "/assets/img/jpg/traveljam-76.jpeg"
       alt: "Traveljam 2019"
-  subtitle-five: "The reward:"
-  list-three:
-    - para: "<strong>Gold prize:</strong> Six vouchers for a 2-person overnight stay with breakfast in each of the six participating cities. All winning team members get to pick one."
-    - para: "<strong>Silver prize:</strong> Six vouchers for a unique activity and lunch -- one in each of the six participating cities. All winning team members get to pick one."
-    - para: "<strong>Bronze prize:</strong> Six baskets full of local food and drinks from the organising cities."
-  subpara-five: "Let’s not forget: you gain the incredible experience of meeting new people, that share the same passion. Travel and dreaming of a better future."
-program:
-  title: "Schedule"
-  dataTitle: "The exploration"
-  dataDate: "Wednesday 3/4"
-  dataPara: "Casual get together. Meet your teammates. Pick the scenario you’re going to hack. The problem statements will be discussed. Challenges will be explained in full. <br> We start at 19:00 sharp! Food available from 18:00."
-  friday: "Traveljam!"
-  fridayDate: "Friday 26/4"
-  scheduleFriday:
-    - hour: "9:00"
-      para: "Welcome with coffee, ready to hack the future."
-    - hour: "9:00-12:00"
-      para: "Talk to the tourism professionals. Brainstorm."
-    - hour: "12:00-14:00"
-      para: "Have lunch and get feedback from the experts."
-    - hour: "14h00"
-      para: "Pitch with cake"
-    - hour: "15:00-18:00"
-      para: "Visualise your ideas."
-    - hour: "19:00"
-      para: "Formal pitches! at <a href='http://urbancity.be/'>UrbanCity</a>"
-    - hour: "21:15"
-      para: "<a href='https://www.canvas.be/video/genre/educatief-spiritueel/nigel-williams-moeten-we-de-toekomst-vrezen'>Nigel Williams</a> will raise his voice during jury deliberation"
-    - hour: "22:00"
-      para: "Prizes and champagne showers."
-venue:
-  title: "The venue"
-  para-one: "The Beacon is a new and hip innovation hub in the centre of Antwerp, that offers views on the MAS. You will be surrounded by people working together on the future of our cities. The Beacon is a 7 minute walk from the main square. Rest assured, there will be plenty of tourists to interview if needed."
-  para-two: "The Beacon is localized in Tolhuis, Sint-Pietersvliet 7, 2000 Antwerpen. Easily accessible by car, bike and public transport.<br> <br><a href='https://www.ondernemeninantwerpen.be/sites/default/files/documents/181025_SD_Antwerpen_Bereikbaarheidsfiches_Tolhuis.pdf' class='c-link'>Find your way to The Beacon (Dutch - pdf)</a> or on <a href='https://www.google.be/maps/place/The+Beacon/@51.2254032,4.3988424,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f6591c88f09d:0x31d6c38718baba03!8m2!3d51.2254032!4d4.4010311?hl=nl' class='c-link'>Google Maps</a>"
-coaches:
-  title: "The coaches"
-subscribe:
-  title: "Hear the pitches"
-  para: "Discover all brilliant ideas on the future of Citytrips on 26th April in UrbanCity, Antwerp at 19:00 sharp"
-  subpara: "Want to join the Jam itself? You can still subscribe <a href='register/'>for the hackathon</a>"
-  link: "Sign up for free"
-  linkHref: "/pitches/"
+presentations:
+  title: "The ideas"
+metaTitle: "We planned the most personal citytrip of the future"
+metaDescription: "​After ten hours of brainstorms and pitches we are very proud to present you the ten ideas that will shape the future of citytrips."
 ---
 

@@ -6,7 +6,7 @@
     <img src="/assets/img/{{ include.image }}" alt="Stock image" class="o-ratio__content">
   </div>
   <div class="o-box c-card__body">
-    <h3 class="c-subtitle u-margin-bottom-tiny"><a href="{{ include.link }}" class="c-link c-link--bare c-card__link">{{ include.title }}</a></h3>
+    <h3 class="c-subtitle u-margin-bottom-tiny"><a href="{{ include.link }}" class="c-link c-link--bare c-card__link" target="_blank" rel="noopener">{{ include.title }}</a></h3>
     {% if include.label %}
     <p class="u-margin-bottom-small"><span class="c-tag{% if include.label == 'Gold' %} c-tag--gold{% endif %}{% if include.label == 'Silver' %} c-tag--silver{% endif %}{% if include.label == 'Bronze' %} c-tag--bronze{% endif %}">{{ include.label }}</span></p>
     {% endif %}

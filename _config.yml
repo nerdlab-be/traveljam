@@ -20,11 +20,11 @@ description: "Plan the most personal citytrip of 2050. 26th April 2019: 9h to 22
 url: "https://traveljam.be"
 navigation:
   - title: Assignment
-    url: "index.html#opdracht"
+    url: "event/index.html#opdracht"
   - title: Schedule
-    url: "index.html#programma"
+    url: "event/index.html#programma"
   - title: Coaches
-    url: "index.html#coaches"
+    url: "event/index.html#coaches"
 # navigation-cta:
 #   - title: Pitches
 #     url: "pitches/"
