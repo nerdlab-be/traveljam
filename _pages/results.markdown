@@ -7,7 +7,7 @@ hero:
   title: "We planned the most personal citytrip of the future"
   date: "And we had a blast!"
   location: "See the pictures"
-  locationLink: "https://www.facebook.com/pg/traveljam.be/photos/?tab=album&album_id=1223409724499824"
+  locationLink: "https://www.facebook.com/pg/traveljam.be/photos/?tab=album&album_id=1247755165398613"
   image: "/assets/img/jpg/laugh.jpg"
   imageAlt: "Traveljam 2019"
 intro:
